@@ -4,6 +4,8 @@ import Header from "./Components/Header component/Header";
 import Main from "./Components/Main component/Main";
 import Footer from "./Components/Footer Component/Footer";
 
+import "./index.css";
+
 function App() {
   return (
     <>
