@@ -10,13 +10,13 @@ import ContactMe from "./Contents/ContactMe";
 const Main = () => {
   return (
     <main>
-      {/* <p>Main</p>
+      <p>Main</p>
       <Hero />
       <AboutMe />
       <Skills />
       <MyEducation />
       <Projects />
-      <ContactMe /> */}
+      <ContactMe />
     </main>
   );
 };
