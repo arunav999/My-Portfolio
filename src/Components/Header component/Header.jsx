@@ -27,7 +27,7 @@ const Header = () => {
             <img src={Logo1} alt="My name logo." className="logo" />
           </a>
           <a href="#" className="name">
-            Arunav Singh
+            Arunav
           </a>
         </div>
         <nav className="main-nav">
