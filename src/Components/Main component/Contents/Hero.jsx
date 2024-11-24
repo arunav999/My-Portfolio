@@ -108,8 +108,13 @@ const Hero = () => {
         </a>
 
         <ul className="my-link-list">
+          {/* Facebook */}
           <li>
-            <a href="" className="my-link">
+            <a
+              href="https://www.facebook.com/arunav999/"
+              className="my-link"
+              target="blank"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="social-icon fb-icon"
@@ -122,8 +127,14 @@ const Hero = () => {
               </svg>
             </a>
           </li>
+
+          {/* Instagram */}
           <li>
-            <a href="" className="my-link">
+            <a
+              href="https://www.instagram.com/arunav_999/"
+              className="my-link"
+              target="blank"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="social-icon insta-icon"
@@ -134,8 +145,13 @@ const Hero = () => {
               </svg>
             </a>
           </li>
+          {/* Linkden */}
           <li>
-            <a href="" className="my-link">
+            <a
+              href="https://www.linkedin.com/in/arunav-singh-61241b171/"
+              className="my-link"
+              target="blank"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="social-icon linkden-icon"
@@ -145,8 +161,13 @@ const Hero = () => {
               </svg>
             </a>
           </li>
+          {/* Github */}
           <li>
-            <a href="" className="my-link">
+            <a
+              href="https://github.com/arunav999"
+              className="my-link"
+              target="blank"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="social-icon git-icon"
@@ -156,8 +177,9 @@ const Hero = () => {
               </svg>
             </a>
           </li>
+          {/* Twitter */}
           <li>
-            <a href="" className="my-link">
+            <a href="https://x.com/ArunavGm" className="my-link" target="blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="social-icon tweet-icon"
@@ -167,8 +189,13 @@ const Hero = () => {
               </svg>
             </a>
           </li>
+          {/* WhatsApp */}
           <li>
-            <a href="" className="my-link">
+            <a
+              href="https://wa.me/917008122921"
+              className="my-link"
+              target="blank"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="social-icon whats-icon"
@@ -178,6 +205,24 @@ const Hero = () => {
                   d="M414.73 97.1A222.14 222.14 0 00256.94 32C134 32 33.92 131.58 33.87 254a220.61 220.61 0 0029.78 111L32 480l118.25-30.87a223.63 223.63 0 00106.6 27h.09c122.93 0 223-99.59 223.06-222A220.18 220.18 0 00414.73 97.1zM256.94 438.66h-.08a185.75 185.75 0 01-94.36-25.72l-6.77-4-70.17 18.32 18.73-68.09-4.41-7A183.46 183.46 0 0171.53 254c0-101.73 83.21-184.5 185.48-184.5a185 185 0 01185.33 184.64c-.04 101.74-83.21 184.52-185.4 184.52zm101.69-138.19c-5.57-2.78-33-16.2-38.08-18.05s-8.83-2.78-12.54 2.78-14.4 18-17.65 21.75-6.5 4.16-12.07 1.38-23.54-8.63-44.83-27.53c-16.57-14.71-27.75-32.87-31-38.42s-.35-8.56 2.44-11.32c2.51-2.49 5.57-6.48 8.36-9.72s3.72-5.56 5.57-9.26.93-6.94-.46-9.71-12.54-30.08-17.18-41.19c-4.53-10.82-9.12-9.35-12.54-9.52-3.25-.16-7-.2-10.69-.2a20.53 20.53 0 00-14.86 6.94c-5.11 5.56-19.51 19-19.51 46.28s20 53.68 22.76 57.38 39.3 59.73 95.21 83.76a323.11 323.11 0 0031.78 11.68c13.35 4.22 25.5 3.63 35.1 2.2 10.71-1.59 33-13.42 37.63-26.38s4.64-24.06 3.25-26.37-5.11-3.71-10.69-6.48z"
                   fillRule="evenodd"
                 />
+              </svg>
+            </a>
+          </li>
+          {/* Codepen */}
+          <li>
+            <a
+              href="https://codepen.io/SLYTERKIT"
+              className="my-link"
+              target="blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="social-icon"
+                viewBox="0 0 512 512"
+              >
+                <path d="M241.24 303.94c-15.32-10.36-30.74-20.57-46.06-30.93-2-1.38-3.43-1.48-5.5 0l-38.88 26.12C182 319.9 244 361.32 244 361.32v-53.79c0-1.22-1.55-2.78-2.76-3.59zM195.09 240.67q23.19-15.24 46.11-30.86a7.54 7.54 0 002.8-5.34v-51.7s-62 41.12-93.26 61.94c13.7 9.16 26.67 17.91 39.78 26.44 1.02.66 3.4.28 4.57-.48zM269.84 209.35q23.71 16.07 47.63 31.82a4.3 4.3 0 003.83 0l39.76-26.47L268 152.48v53.35a4.79 4.79 0 001.84 3.52zM258.11 230.37a5.27 5.27 0 00-4.74.17c-4.82 3-9.47 6.2-14.17 9.35-8.25 5.53-25.35 17-25.35 17l38.84 25.86a6.18 6.18 0 006.26.11l39-26s-34.07-22.66-39.84-26.49zM141 237.12v39.61l29.62-19.84L141 237.12z" />
+                <path d="M256 32C132.29 32 32 132.29 32 256s100.29 224 224 224 224-100.29 224-224S379.71 32 256 32zm139 265c0 5.78-2.65 9.86-7.51 13.09q-61.71 41-123.29 82.19c-5.85 3.92-11.17 3.75-17-.14q-61.17-41-122.63-81.67c-5.11-3.39-7.59-7.56-7.59-13.73V217c0-6.14 2.52-10.34 7.62-13.72 40.91-27.13 81.94-54.36 122.73-81.68 5.82-3.89 11.09-4 16.94-.09q61.54 41.21 123.26 82.19c4.68 3.11 7.45 6.95 7.45 12.66z" />
+                <path d="M316.25 273.23q-22.59 15.34-45.39 30.34c-2.41 1.58-2.89 3.31-2.86 6.19v51.34l93-62-38.53-25.88c-2.3-1.61-3.89-1.57-6.22.01zM370 276.68v-39.62l-29.59 19.87L370 276.68z" />
               </svg>
             </a>
           </li>
