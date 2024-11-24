@@ -1,10 +1,10 @@
 .aboutMeSection {
   width: 120rem;
   margin: 0 auto;
-  height: 20rem;
+  /* height: 20rem; */
 }
 
-.heading {
+.heading-secondary {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,6 +22,76 @@
   width: 3.4rem;
 }
 
-.heading span {
+.heading-secondary span {
   color: #6a1aff;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1.2rem;
+  gap: 1.2rem;
+}
+
+.image {
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.memoji-working {
+  height: 40rem;
+  width: 40rem;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  box-shadow: -4px 1px 37px 4px rgba(214, 170, 26, 0.54);
+}
+
+.content {
+  font-family: "Figtree", sans-serif;
+  line-height: 1.4;
+  letter-spacing: 0.8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.content .desc{
+  margin-top: 1.8rem;
+}
+
+.heading-tertiary {
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+
+.content span {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-link:link,
+.contact-link:visited {
+  text-decoration: none;
+}
+
+.res-btn{
+  margin-top: 1.2rem;
+}
+
+.res-link:link,
+.res-link:visited{
+  text-decoration: none;
+  color: #fff;
+  background-color: red;
+  padding: 1.2rem;
 }
