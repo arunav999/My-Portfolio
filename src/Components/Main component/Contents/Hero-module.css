@@ -1,18 +1,74 @@
 .hero-section {
   margin-top: 8rem;
   padding: 4.8rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .my-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.2rem;
   padding: 4.2rem;
+  font-size: 3.8rem;
+  font-weight: 500;
+  /* border: 1px solid black; */
+  font-family: "Ubuntu", sans-serif;
+}
 
-  border: 1px solid black;
+.greeting {
+  color: #0077b5;
+}
+
+.my-name {
+  color: #075e54;
+}
+
+.my-name span {
+  color: #3b5998;
 }
 
 .dynamic {
   display: flex;
   gap: 0.6rem;
+
+  font-size: 2.4rem;
+}
+
+.dynamic p span {
+  /* display: inline-block; */
+  color: #000;
+  font-weight: 700;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.about-me-link:link,
+.about-me-link:visited {
+  text-decoration: none;
+  padding: 1.2rem 2.2rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+  border-radius: 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  width: 20rem;
+  background-color: #3b5998;
+  color: #fff;
+
+  transition: all 0.5s;
+}
+
+.about-me-link:hover,
+.about-me-link:active {
+  box-shadow: 0px 0px 15px 5px rgba(59, 89, 152, 0.85);
+}
+
+.down-arrow-icon {
+  height: 2.4rem;
+  width: 2.4rem;
 }
 
 .my-link-list {
@@ -56,7 +112,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .memoji-item {
