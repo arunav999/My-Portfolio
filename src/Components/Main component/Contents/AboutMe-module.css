@@ -1,29 +1,7 @@
 .aboutMeSection {
-  width: 120rem;
-  margin: 0 auto;
-  /* height: 20rem; */
-}
+  /* background-color: #f1f1f1; */
 
-.heading-secondary {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.2rem;
-  color: #000;
-  text-align: center;
-  font-family: "Figtree";
-  font-size: 3.5rem;
-  font-weight: 800;
-  padding: 1.8rem;
-}
-
-.headIcon {
-  height: 3.4rem;
-  width: 3.4rem;
-}
-
-.heading-secondary span {
-  color: #6a1aff;
+  margin: 4rem 0 8rem;
 }
 
 .row {
@@ -59,7 +37,7 @@
   gap: 1.2rem;
 }
 
-.content .desc{
+.content .desc {
   margin-top: 1.8rem;
 }
 
@@ -84,12 +62,12 @@
   text-decoration: none;
 }
 
-.res-btn{
+.res-btn {
   margin-top: 1.2rem;
 }
 
 .res-link:link,
-.res-link:visited{
+.res-link:visited {
   text-decoration: none;
   color: #fff;
   background-color: red;
