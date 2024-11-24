@@ -1,21 +1,21 @@
-.hero-section{
+.hero-section {
   margin-top: 8rem;
   padding: 4.8rem;
   border: 1px solid black;
 }
 
-.my-info{
+.my-info {
   padding: 4.2rem;
-  
+
   border: 1px solid black;
 }
 
-.dynamic{
+.dynamic {
   display: flex;
   gap: 0.6rem;
 }
 
-.my-link-list{
+.my-link-list {
   list-style: none;
 
   display: flex;
@@ -25,20 +25,41 @@
 }
 
 .my-link:link,
-.my-link:visited{
+.my-link:visited {
   text-decoration: none;
 }
 
+.fb-icon {
+  fill: #3b5998;
+}
 
+.insta-icon {
+  fill: #ee2a7b;
+}
 
-.img{
+.linkden-icon{
+  fill: #0077B5;
+}
+
+.git-icon{
+  fill: #171515;
+}
+.tweet-icon{
+  fill: #1DA1F2;
+}
+
+.whats-icon{
+  fill: #075E54;
+}
+
+.img {
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid black;
 }
 
-.img img{
+.img img {
   height: 40.4rem;
   width: 40.4rem;
   border-radius: 50%;

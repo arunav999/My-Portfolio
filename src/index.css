@@ -25,20 +25,18 @@ body {
 
 section {
   /* margin-top: 9rem; */
- font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
-.grid{
+.grid {
   display: grid;
 }
 
-.grid--2-cols{
+.grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.social-icon{
+.social-icon {
   height: 2.4rem;
   width: 2.4rem;
-
-  fill: #a4c017;
 }
