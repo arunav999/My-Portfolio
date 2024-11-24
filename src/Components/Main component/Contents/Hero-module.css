@@ -73,6 +73,8 @@
 
 .my-link-list {
   list-style: none;
+  height: 5rem;
+  width: 40rem;
 
   display: flex;
   align-items: center;
