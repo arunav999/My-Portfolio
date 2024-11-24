@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import "./Hero-module.css";
 
-import MyMemoji from "../../../../public/My Memoji/Without background/Hii-NB.png";
+import MyMemoji from "../../../My Memoji/Without background/Hii-NB.png";
 
 const Hero = () => {
   const texts = ["Web Designing", "Web Development", "Frontend Development"];
