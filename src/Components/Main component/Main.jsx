@@ -10,7 +10,6 @@ import ContactMe from "./Contents/ContactMe";
 const Main = () => {
   return (
     <main>
-      <p>Main</p>
       <Hero />
       <AboutMe />
       <Skills />

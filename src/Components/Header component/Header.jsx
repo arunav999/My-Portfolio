@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <>
       <header className="header" id="navArea">
-        <div className="my-name">
+        <div className="myName">
           <a href="#">
             <img src={Logo1} alt="My name logo." className="logo" />
           </a>

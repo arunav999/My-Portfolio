@@ -15,15 +15,30 @@ html {
   font-size: 62.5%;
 }
 
-/* body {
+body {
   height: 120rem;
-} */
+}
+
+#root {
+  position: relative;
+}
 
 section {
-  /* height: 1rem; */
-  padding: 20rem 0;
-  font-size: 4.8rem;
-  text-align: center;
-  text-transform: uppercase;
-  border-top: 1px solid #000;
+  /* margin-top: 9rem; */
+ font-size: 1.8rem;
+}
+
+.grid{
+  display: grid;
+}
+
+.grid--2-cols{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.social-icon{
+  height: 2.4rem;
+  width: 2.4rem;
+
+  fill: #a4c017;
 }
