@@ -94,8 +94,10 @@ const Hero = () => {
         </ul>
       </div>
 
-      <div className="img">
-        <img src={MyMemoji} alt="My memoji image" />
+      <div className="memoji">
+        <figure className="memoji-item">
+          <img src={MyMemoji} alt="My memoji image" />
+        </figure>
       </div>
     </section>
   );

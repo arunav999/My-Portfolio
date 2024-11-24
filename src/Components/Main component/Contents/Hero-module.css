@@ -37,26 +37,56 @@
   fill: #ee2a7b;
 }
 
-.linkden-icon{
-  fill: #0077B5;
+.linkden-icon {
+  fill: #0077b5;
 }
 
-.git-icon{
+.git-icon {
   fill: #171515;
 }
-.tweet-icon{
-  fill: #1DA1F2;
+.tweet-icon {
+  fill: #1da1f2;
 }
 
-.whats-icon{
-  fill: #075E54;
+.whats-icon {
+  fill: #075e54;
 }
 
-.img {
+.memoji {
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid black;
+}
+
+.memoji-item {
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.memoji-item img {
+  display: block;
+  height: 40.4rem;
+  width: 40.4rem;
+  background-color: antiquewhite;
+  transition: all 0.5s;
+}
+
+.memoji-item:hover {
+  box-shadow: -4px 1px 37px 4px rgba(214, 170, 26, 0.54);
+}
+
+.memoji-item img:hover {
+  transform: scale(1.05);
+}
+
+/* .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  overflow: hidden;
 }
 
 .img img {
@@ -67,4 +97,11 @@
   border: 1px solid black;
   object-fit: fill;
   padding: -1.2rem;
+  box-shadow: inset 0px 0px 11px 0px rgba(0,0,0,0.75);
+  transition: all 0.5s;
 }
+
+.img img:hover {
+  box-shadow: -4px 1px 37px 4px rgba(214, 170, 26, 0.54);
+  transform: scale(1.05);
+} */
