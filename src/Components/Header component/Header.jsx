@@ -35,6 +35,7 @@ const Header = () => {
           <ul className="main-nav-list">
             <li>
               <Link
+                className="main-nav-link"
                 activeClass="active"
                 to="Home"
                 spy={true}
@@ -46,6 +47,7 @@ const Header = () => {
             </li>
             <li>
               <Link
+                className="main-nav-link"
                 activeClass="active"
                 to="About"
                 spy={true}
@@ -57,6 +59,7 @@ const Header = () => {
             </li>
             <li>
               <Link
+                className="main-nav-link"
                 activeClass="active"
                 to="Skills"
                 spy={true}
@@ -68,6 +71,7 @@ const Header = () => {
             </li>
             <li>
               <Link
+                className="main-nav-link"
                 activeClass="active"
                 to="Education"
                 spy={true}
@@ -79,6 +83,7 @@ const Header = () => {
             </li>
             <li>
               <Link
+                className="main-nav-link"
                 activeClass="active"
                 to="Projects"
                 spy={true}
@@ -90,6 +95,7 @@ const Header = () => {
             </li>
             <li>
               <Link
+                className="main-nav-link"
                 activeClass="active"
                 to="Contact"
                 spy={true}
