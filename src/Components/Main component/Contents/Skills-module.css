@@ -1,3 +1,27 @@
 .skillsSection {
   background-color: #f1f1f1;
 }
+
+.skills{
+  margin: 2rem 4rem;
+}
+
+.skills-container{
+  padding: 2.2rem;
+  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.2rem;
+}
+
+.info img{
+  height: 7.4rem;
+  width: 7.4rem;
+}

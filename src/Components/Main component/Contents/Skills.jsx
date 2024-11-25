@@ -2,6 +2,15 @@ import React from "react";
 
 import "./Skills-module.css";
 
+import HtmlIcon from "../../../logo/tech-logo/html5-icon.png";
+import CssIcon from "../../../logo/tech-logo/css3-icon.png";
+import JsIcon from "../../../logo/tech-logo/js-icon.png";
+import ReactIcon from "../../../logo/tech-logo/react-icon.png";
+import NextIcon from "../../../logo/tech-logo/nextjs-icon.png";
+import GithubIcon from "../../../logo/tech-logo/github-icon.png";
+import GitIcon from "../../../logo/tech-logo/git_VCS-icon.png";
+import NetifyIcon from "../../../logo/tech-logo/netify-icon.png";
+
 const Skills = () => {
   return (
     <section className="skillsSection">
@@ -17,48 +26,54 @@ const Skills = () => {
           Skills &<span>Abilities</span>
         </h2>
 
-        <div className="skills-container">
-          <div className="skills">
+        <div className="skills">
+          <div className="skills-container">
             <div className="bar">
               <div className="info">
-                <img src="" alt="" />
+                <img src={HtmlIcon} alt="html-icon" />
                 <span>HTML</span>
               </div>
             </div>
             <div className="bar">
               <div className="info">
-                <img src="" alt="" />
+                <img src={CssIcon} alt="css-icon" />
                 <span>CSS</span>
               </div>
             </div>
             <div className="bar">
               <div className="info">
-                <img src="" alt="" />
-                <span></span>
+                <img src={JsIcon} alt="js-icon" />
+                <span>Javascript</span>
               </div>
             </div>
             <div className="bar">
               <div className="info">
-                <img src="" alt="" />
-                <span></span>
+                <img src={ReactIcon} alt="" />
+                <span>React</span>
               </div>
             </div>
             <div className="bar">
               <div className="info">
-                <img src="" alt="" />
-                <span></span>
+                <img src={NextIcon} alt="" />
+                <span>next</span>
               </div>
             </div>
             <div className="bar">
               <div className="info">
-                <img src="" alt="" />
-                <span></span>
+                <img src={GithubIcon} alt="" />
+                <span>github</span>
               </div>
             </div>
             <div className="bar">
               <div className="info">
-                <img src="" alt="" />
-                <span></span>
+                <img src={GitIcon} alt="" />
+                <span>git vcs</span>
+              </div>
+            </div>
+            <div className="bar">
+              <div className="info">
+                <img src={NetifyIcon} alt="" />
+                <span>netify</span>
               </div>
             </div>
           </div>
