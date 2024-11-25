@@ -10,42 +10,44 @@ import NetifyIcon from "../../logo/tech-logo/netify-icon.png";
 const skillsData = [
   {
     $name: "HTML",
-    imgSrc: { HtmlIcon },
+    imgSrc: HtmlIcon,
     altText: "Html icon",
   },
   {
     $name: "CSS",
-    imgSrc: { CssIcon },
+    imgSrc: CssIcon,
     altText: "Css icon",
   },
   {
     $name: "Javascript",
-    imgSrc: { JsIcon },
+    imgSrc: JsIcon,
     altText: "Javascript icon",
   },
   {
     $name: "React",
-    imgSrc: { ReactIcon },
+    imgSrc: ReactIcon,
     altText: "React icon",
   },
   {
     $name: "Next JS",
-    imgSrc: { NextIcon },
+    imgSrc: NextIcon,
     altText: "Next JS icon",
+    filter: true,
   },
   {
     $name: "Github",
-    imgSrc: { GithubIcon },
+    imgSrc: GithubIcon,
     altText: "Github icon",
+    filter: true,
   },
   {
     $name: "Git VCS",
-    imgSrc: { GitIcon },
+    imgSrc: GitIcon,
     altText: "Git VCS icon",
   },
   {
     $name: "Netify",
-    imgSrc: { NetifyIcon },
+    imgSrc: NetifyIcon,
     altText: "Netify icon",
   },
 ];
