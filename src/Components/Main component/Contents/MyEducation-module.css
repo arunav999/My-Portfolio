@@ -1,0 +1,31 @@
+.quote {
+  text-align: center;
+}
+
+.edu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edu-box {
+  margin-top: 2rem;
+  padding: 1.2rem;
+  width: 75rem;
+
+  display: flex;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.edu-img img {
+  height: 15.4rem;
+  width: 15.4rem;
+}
+
+.edu-content {
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
