@@ -15,7 +15,7 @@ const AboutMe = () => {
   };
 
   return (
-    <section className="aboutMeSection">
+    <section className="aboutMeSection" id="About">
       <div className="sec-container">
         <h2 className="heading-secondary">
           <svg

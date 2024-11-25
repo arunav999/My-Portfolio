@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
     <>
-      <section>
+      <section style={{ height: "100rem" }} id="Projects">
         <p>Projects Section</p>
       </section>
     </>

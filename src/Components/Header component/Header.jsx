@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-scroll";
 
 import "./Header-module.css";
 import Logo1 from "../../logo/AS-White.png";
@@ -33,34 +34,70 @@ const Header = () => {
         <nav className="main-nav">
           <ul className="main-nav-list">
             <li>
-              <a href="#" className="main-nav-link">
+              <Link
+                activeClass="active"
+                to="Home"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="main-nav-link">
+              <Link
+                activeClass="active"
+                to="About"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="main-nav-link">
+              <Link
+                activeClass="active"
+                to="Skills"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
                 Skills
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="main-nav-link">
+              <Link
+                activeClass="active"
+                to="Education"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
                 Education
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="main-nav-link">
+              <Link
+                activeClass="active"
+                to="Projects"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
                 Projects
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="main-nav-link">
+              <Link
+                activeClass="active"
+                to="Contact"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

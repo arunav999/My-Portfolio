@@ -3,7 +3,7 @@ import React from "react";
 const MyEducation = () => {
   return (
     <>
-      <section>
+      <section style={{ height: "100rem" }} id="Education">
         <p>My Education Section</p>
       </section>
     </>
