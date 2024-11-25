@@ -1,0 +1,91 @@
+.pro-container {
+  display: flex;
+  flex: wrap;
+  gap: 1.2rem;
+  margin: 2rem;
+}
+
+.pro-box {
+  flex: 1 1 30rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  height: 30rem;
+}
+
+.pro-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.box-content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 85%;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
+}
+
+.box-content .tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+  width: 100%;
+  padding-left: 1rem;
+  background: #ffd900;
+}
+
+.box-content .tag h3 {
+  font-size: 2rem;
+}
+
+.pro-box:hover .box-content {
+  top: 25%;
+}
+
+.pro-desc {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pro-desc p {
+  font-size: 1.5rem;
+}
+
+.pro-btns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.pro-btns .pro-btn {
+  line-height: 0;
+  display: inline;
+  padding: 1.5rem 2.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  background: rgb(12, 12, 12);
+  margin-right: 2rem;
+  transition: all 0.5s;
+}
+
+.pro-btns .pro-btn:hover {
+  background: #310ae0f5;
+}
+
+.pro-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
