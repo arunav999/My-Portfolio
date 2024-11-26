@@ -11,7 +11,7 @@ const Hero = () => {
   const state = TypingLogic();
 
   return (
-    <section className="hero-section grid grid--2-cols" id="Home">
+    <section className="hero-section" id="Home">
       <div className="my-info">
         <p className="greeting">Hi, there</p>
         <p className="my-name">

@@ -6,8 +6,8 @@
   margin-top: 6.5rem;
   padding: 4.8rem;
   background-color: #eee;
-  font-family: "Roboto";
-  height: 80vh;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -152,8 +152,8 @@
 
 .memoji-item img {
   display: block;
-  height: 40.4rem;
-  width: 40.4rem;
+  height: 50.4rem;
+  width: 50.4rem;
   transition: transform 0.5s;
 }
 

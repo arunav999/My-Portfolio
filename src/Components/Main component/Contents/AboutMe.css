@@ -1,0 +1,133 @@
+/* ************************* */
+/* ABOUT ME */
+/* ************************* */
+.aboutMeSection {
+  background-color: #fff;
+  margin: 2rem 0 8rem;
+  height: 80vh;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1.2rem;
+  gap: 1.2rem;
+}
+
+/* ************************* */
+/* MEMOJI */
+/* ************************* */
+.memoji-img {
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.memoji-working {
+  height: 40rem;
+  width: 40rem;
+  border-radius: 20px;
+  transition: all 0.5s;
+  box-shadow: 0px 0px 18px 4px rgba(25, 25, 25, 0.09);
+}
+
+.memoji-working:hover {
+  background-color: antiquewhite;
+  box-shadow: -4px 1px 37px 4px rgba(214, 170, 26, 0.54);
+}
+
+/* ************************* */
+/* CONTENT */
+/* ************************* */
+.content {
+  font-family: "Sen", sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.8px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.2rem;
+}
+
+.heading-tertiary {
+  font-size: 3.4rem;
+  font-weight: 750;
+}
+
+.content span {
+  font-size: 1.8rem;
+  font-weight: 650;
+}
+
+.content .desc {
+  margin-top: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #444;
+}
+
+/* ************************* */
+/* CONTACT-INFO */
+/* ************************* */
+.box-container {
+  margin-top: 1.2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.contact-link:link,
+.contact-link:visited {
+  text-decoration: none;
+}
+
+.contact-link:link span,
+.contact-link:visited span,
+.place span {
+  color: #6666ff;
+  transition: all 0.3s;
+}
+
+.contact-link:hover span,
+.contact-link:active span,
+.place:hover span {
+  color: #000099;
+}
+
+.contact-link:link span:last-child,
+.contact-link:visited span:last-child,
+.place span:last-child {
+  color: #181818;
+  transition: all 0.3s;
+}
+
+/* ************************* */
+/* RESUME-BUTTON */
+/* ************************* */
+.res-btn {
+  position: absolute;
+  bottom: 50px;
+}
+
+.res-link:link,
+.res-link:visited {
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: 550;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #000099;
+  padding: 1.2rem 4.2rem;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  transition: all 0.5s;
+}
+
+.res-link:hover,
+.res-link:active {
+  background-color: #00004d;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 77, 0.55);
+}

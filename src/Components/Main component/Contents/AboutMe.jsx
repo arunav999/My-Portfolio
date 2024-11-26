@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./AboutMe-module.css";
+import "./AboutMe.css";
 import { myData } from "../../../Dynamic Data/Data Stored/data";
 import WorkingNB from "../../../My Memoji/Without background/Working-NB.png";
 
@@ -20,7 +20,7 @@ const AboutMe = () => {
         </h2>
 
         <div className="row">
-          <div className="image">
+          <div className="memoji-img">
             <img src={WorkingNB} alt="my-image" className="memoji-working" />
           </div>
 
@@ -36,24 +36,28 @@ const AboutMe = () => {
                   className="contact-link"
                 >
                   <span>E-mail: </span>
-                  {myData[0].email}
+                  <span>{myData[0].email}</span>
                 </a>
               </p>
               <p className="phone">
                 <a href="tel:7008122921" className="contact-link">
                   <span>Phone: </span>
-                  {myData[0].phone}
+                  <span>{myData[0].phone}</span>
                 </a>
               </p>
               <p className="place">
                 <span>Place: </span>
-                {myData[0].place}
+                <span>{myData[0].place}</span>
               </p>
             </div>
 
             <div className="res-btn">
-              <a href="" className="res-link" target="blank">
-                Resume
+              <a
+                href="https://drive.google.com/file/d/1T35dGFRaqpP3K47avnfNN-GFgAm1FcVj/view?usp=sharing"
+                className="res-link"
+                target="blank"
+              >
+                Resume &gt;
               </a>
             </div>
           </div>
