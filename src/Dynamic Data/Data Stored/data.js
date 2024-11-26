@@ -7,6 +7,7 @@ import GithubIcon from "../../logo/tech-logo/github-icon.png";
 import GitIcon from "../../logo/tech-logo/git_VCS-icon.png";
 import NetifyIcon from "../../logo/tech-logo/netify-icon.png";
 
+// ICONS-DATA
 const skillsData = [
   {
     $name: "HTML",
@@ -52,4 +53,30 @@ const skillsData = [
   },
 ];
 
+// MY-DATA
+const myData = [
+  {
+    myName: "Arunav Singh",
+    occupation: "Web Developer",
+    description:
+      "Aspiring Web Developer and Web Designer with a focus on front-end development. Proficient in HTML, CSS, JavaScript, and ReactJS at a beginner level, with a passion for creating responsive and user-friendly web interfaces. Dedicated to learning and improving in the field of web development.",
+    email: "arunavsingh999@gmail.com",
+    phone: "+91-7008122921",
+    place: "Bengaluru, India - 560048",
+  },
+];
+
+// TYPING DATA
+// constants.js
+const typingConfig = [
+  {
+    texts: ["Web Designing", "Web Development", "Frontend Development"],
+    typingDuration: 1100,
+    deletingDuration: 350,
+    blinkSpeed: 250,
+    pauseDuration: 1500,
+  },
+];
+
 export default skillsData;
+export { myData, typingConfig };

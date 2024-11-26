@@ -1,6 +1,6 @@
 import React from "react";
 
-import loadSVG from "./Data Stored/allSVG";
+import loadSVG from "./Data Stored/social-Icon-SVG";
 
 const DynamicSocial = () => {
   return (

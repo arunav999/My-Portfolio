@@ -1,19 +1,10 @@
 import React from "react";
 
 import "./AboutMe-module.css";
+import { myData } from "../../../Dynamic Data/Data Stored/data";
 import WorkingNB from "../../../My Memoji/Without background/Working-NB.png";
 
 const AboutMe = () => {
-  const data = {
-    myName: "Arunav Singh",
-    occupation: "Web Developer",
-    description:
-      "Aspiring Web Developer and Web Designer with a focus on front-end development. Proficient in HTML, CSS, JavaScript, and ReactJS at a beginner level, with a passion for creating responsive and user-friendly web interfaces. Dedicated to learning and improving in the field of web development.",
-    email: "arunavsingh999@gmail.com",
-    phone: "+91-7008122921",
-    place: "Bengaluru, India - 560048",
-  };
-
   return (
     <section className="aboutMeSection" id="About">
       <div className="sec-container">
@@ -34,9 +25,9 @@ const AboutMe = () => {
           </div>
 
           <div className="content">
-            <h3 className="heading-tertiary">{data.myName}</h3>
-            <span>{data.occupation}</span>
-            <p className="desc">{data.description}</p>
+            <h3 className="heading-tertiary">{myData[0].myName}</h3>
+            <span>{myData[0].occupation}</span>
+            <p className="desc">{myData[0].description}</p>
 
             <div className="box-container">
               <p className="email">
@@ -45,18 +36,18 @@ const AboutMe = () => {
                   className="contact-link"
                 >
                   <span>E-mail: </span>
-                  {data.email}
+                  {myData[0].email}
                 </a>
               </p>
               <p className="phone">
                 <a href="tel:7008122921" className="contact-link">
                   <span>Phone: </span>
-                  {data.phone}
+                  {myData[0].phone}
                 </a>
               </p>
               <p className="place">
                 <span>Place: </span>
-                {data.place}
+                {myData[0].place}
               </p>
             </div>
 
