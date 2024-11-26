@@ -21,94 +21,98 @@ const Header = () => {
   }, []);
 
   return (
-    <>
-      <header className="header" id="navArea">
-        <div className="myName">
-          <a href="#">
-            <img src={Logo1} alt="My name logo." className="logo" />
-          </a>
-          <a href="#" className="name">
-            Arunav
-          </a>
-        </div>
-        <nav className="main-nav">
-          <ul className="main-nav-list">
-            <li>
-              <Link
-                className="main-nav-link"
-                activeClass="active"
-                to="Home"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="main-nav-link"
-                activeClass="active"
-                to="About"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="main-nav-link"
-                activeClass="active"
-                to="Skills"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Skills
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="main-nav-link"
-                activeClass="active"
-                to="Education"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Education
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="main-nav-link"
-                activeClass="active"
-                to="Projects"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="main-nav-link"
-                activeClass="active"
-                to="Contact"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
-    </>
+    <header className="header" id="navArea">
+      <div className="myName">
+        <a href="#">
+          <img src={Logo1} alt="My name logo." className="logo" />
+        </a>
+        <a href="#" className="name">
+          Arunav
+        </a>
+      </div>
+      <nav className="main-nav">
+        <ul className="main-nav-list">
+          <li>
+            <Link
+              className="main-nav-link"
+              activeClass="active"
+              to="Home"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="main-nav-link"
+              activeClass="active"
+              to="About"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="main-nav-link"
+              activeClass="active"
+              to="Skills"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="main-nav-link"
+              activeClass="active"
+              to="Education"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Education
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="main-nav-link"
+              activeClass="active"
+              to="Projects"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="main-nav-link"
+              activeClass="active"
+              to="Contact"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 };
 

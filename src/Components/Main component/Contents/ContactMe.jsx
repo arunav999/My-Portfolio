@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./ContactMe-module.css";
+import CallMe from "../../../My Memoji/Without background/CallMe-NB.png";
 
 const ContactMe = () => {
   return (
@@ -20,32 +21,32 @@ const ContactMe = () => {
       <div className="contact-container">
         <div className="contact-content">
           <div className="contact-img">
-            <img src="" alt="" />
+            <img src={CallMe} alt="Call me memoji" />
           </div>
 
           <form action="">
             <div className="form-group">
               <div className="field">
-                <input type="text" />
+                <input type="text" placeholder="Name" />
                 <i></i>
               </div>
               <div className="field">
-                <input type="text" />
+                <input type="text" placeholder="E-mail" />
                 <i></i>
               </div>
               <div className="field">
-                <input type="text" placeholder="aru"/>
+                <input type="text" placeholder="Phone" />
                 <i></i>
               </div>
               <div className="message">
-                <textarea name="" id=""></textarea>
+                <textarea name="" id="" placeholder="Message"></textarea>
                 <i></i>
               </div>
             </div>
 
             <div className="button-area">
               <button type="submit">
-                Submit 
+                Submit
                 <i></i>
               </button>
             </div>
