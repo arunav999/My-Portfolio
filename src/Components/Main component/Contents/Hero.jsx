@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 
+import { Link } from "react-scroll";
+
 import "./Hero.css";
 
 import MyMemoji from "../../../My Memoji/Without background/Hii-NB.png";
@@ -83,7 +85,14 @@ const Hero = () => {
           </p>
         </div>
 
-        <a href="" className="about-me-link">
+        <Link
+          className="about-me-link"
+          to="About"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
           <span>About me</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +115,7 @@ const Hero = () => {
               strokeWidth="32"
             />
           </svg>
-        </a>
+        </Link>
 
         <DynamicSocial />
       </div>

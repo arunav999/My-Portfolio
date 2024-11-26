@@ -1,8 +1,22 @@
+/* ************************* */
+/* HERO */
+/* ************************* */
+
 .hero-section {
   margin-top: 6.5rem;
   padding: 4.8rem;
   background-color: #eee;
+  font-family: "Roboto";
+  height: 80vh;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
 }
+
+/* ************************* */
+/* MY-INFO */
+/* ************************* */
 
 .my-info {
   display: flex;
@@ -10,65 +24,92 @@
   justify-content: center;
   gap: 2.2rem;
   padding: 4.2rem;
-  font-size: 3.8rem;
-  font-weight: 500;
+  font-size: 5.8rem;
+  font-weight: 750;
   border-radius: 20px;
-  /* font-family: "Ubuntu", sans-serif; */
-  /* box-shadow: inset 0px 0px 18px 4px rgba(25, 25, 25, 1); */
 }
 
 .greeting {
-  color: #0077b5;
+  color: #21076a;
 }
 
 .my-name {
-  color: #075e54;
+  color: #21076a;
 }
 
 .my-name span {
-  color: #3b5998;
+  color: #700827;
 }
+
+/* ************************* */
+/* AUTO-TYPING */
+/* ************************* */
 
 .dynamic {
   display: flex;
   gap: 0.6rem;
 
   font-size: 2.4rem;
+  font-weight: 550;
+}
+
+.dynamic p:last-child {
+  color: #700827;
 }
 
 .dynamic p span {
-  color: #000;
-  font-weight: 700;
+  color: #700827;
+  font-weight: 750;
   transition: opacity 0.2s ease-in-out;
 }
 
-.about-me-link:link,
-.about-me-link:visited {
+/* ************************* */
+/* ABOUT ME BTN */
+/* ************************* */
+
+.about-me-link {
   text-decoration: none;
   padding: 1.2rem 2.2rem;
   font-size: 2.2rem;
   font-weight: 400;
   border-radius: 22px;
+  cursor: pointer;
 
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.4rem;
   width: 20rem;
-  background-color: #3b5998;
   color: #fff;
-
+  background-color: #0b0899;
+  box-shadow: 0px 0px 6px 3px rgba(11, 8, 153, 0.45);
   transition: all 0.5s;
 }
 
 .about-me-link:hover,
 .about-me-link:active {
-  box-shadow: 0px 0px 15px 5px rgba(59, 89, 152, 0.85);
+  background-color: #08066d;
+  box-shadow: 0px 0px 15px 5px rgba(8, 6, 109, 0.45);
 }
 
 .down-arrow-icon {
   height: 2.4rem;
   width: 2.4rem;
+}
+
+/* ************************* */
+/* SOCIAL-ICON */
+/* ************************* */
+
+.social-icon {
+  height: 3.4rem;
+  width: 3.4rem;
+  transition: all 0.3s;
+}
+
+.social-icon:hover {
+  height: 3.8rem;
+  width: 3.8rem;
 }
 
 .my-link-list {
@@ -79,7 +120,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 2.2rem;
+  gap: 3.2rem;
 }
 
 .my-link:link,
@@ -87,28 +128,9 @@
   text-decoration: none;
 }
 
-.fb-icon {
-  fill: #3b5998;
-}
-
-.insta-icon {
-  fill: #ee2a7b;
-}
-
-.linkden-icon {
-  fill: #0077b5;
-}
-
-.git-icon {
-  fill: #171515;
-}
-.tweet-icon {
-  fill: #1da1f2;
-}
-
-.whats-icon {
-  fill: #075e54;
-}
+/* ************************* */
+/* MEMOJI */
+/* ************************* */
 
 .memoji {
   display: flex;
@@ -119,13 +141,13 @@
 .memoji-item {
   overflow: hidden;
   border-radius: 50%;
-  box-shadow: inset 0px 0px 18px 4px rgba(25, 25, 25, 1);
+  box-shadow: inset 0px 0px 18px 4px rgba(25, 25, 25, 0.2);
   transition: all 0.5s;
 }
 
 .memoji-item:hover {
-  box-shadow: -4px 1px 37px 4px rgba(214, 170, 26, 0.54);
-  background-color: antiquewhite;
+  box-shadow: -4px 1px 37px 4px rgba(190, 190, 190, 1);
+  background-color: #bebebe;
 }
 
 .memoji-item img {
@@ -138,28 +160,3 @@
 .memoji-item img:hover {
   transform: scale(1.05);
 }
-
-/* .img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-  overflow: hidden;
-}
-
-.img img {
-  height: 40.4rem;
-  width: 40.4rem;
-  border-radius: 50%;
-  background-color: antiquewhite;
-  border: 1px solid black;
-  object-fit: fill;
-  padding: -1.2rem;
-  box-shadow: inset 0px 0px 11px 0px rgba(0,0,0,0.75);
-  transition: all 0.5s;
-}
-
-.img img:hover {
-  box-shadow: -4px 1px 37px 4px rgba(214, 170, 26, 0.54);
-  transform: scale(1.05);
-} */
