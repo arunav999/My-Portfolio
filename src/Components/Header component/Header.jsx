@@ -1,17 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-scroll";
 
-import "./Header-module.css";
+import "./Header.css";
 import Logo1 from "../../logo/AS-White.png";
 
 const Header = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  const toggleTheme = () => {
-    setIsDarkMode((prevMode) => !prevMode);
-    document.body.className = isDarkMode ? "light-mode" : "dark-mode";
-  };
-
   useEffect(() => {
     const handleScroll = () => {
       const navArea = document.getElementById("navArea");
@@ -119,11 +112,6 @@ const Header = () => {
               Contact
             </Link>
           </li>
-          {/* <li>
-            <button onClick={toggleTheme} className="theme-toggle-btn">
-              {isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
-            </button>
-          </li> */}
         </ul>
       </nav>
     </header>
