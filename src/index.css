@@ -28,7 +28,7 @@ html {
 
 body {
   height: 120rem;
-  background-color: #2b2b2b;
+  /* background-color: #2b2b2b; */
 }
 
 body.light-mode {

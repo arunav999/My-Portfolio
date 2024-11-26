@@ -7,16 +7,16 @@ import whats from "../../assets/logo-whatsapp.svg";
 import code from "../../assets/logo-codepen.svg";
 
 const loadSVG = [
-  {
-    sName: "Facebook Icon",
-    logo: fb,
-    href: "https://www.facebook.com/arunav999/",
-  },
-  {
-    sName: "Instagram Icon",
-    logo: insta,
-    href: "https://www.instagram.com/arunav_999/",
-  },
+  // {
+  //   sName: "Facebook Icon",
+  //   logo: fb,
+  //   href: "https://www.facebook.com/arunav999/",
+  // },
+  // {
+  //   sName: "Instagram Icon",
+  //   logo: insta,
+  //   href: "https://www.instagram.com/arunav_999/",
+  // },
   {
     sName: "Linkedin Icon",
     logo: linkedin,
@@ -27,11 +27,11 @@ const loadSVG = [
     logo: github,
     href: "https://github.com/arunav999",
   },
-  {
-    sName: "Twitter Icon",
-    logo: tweet,
-    href: "https://x.com/ArunavGm",
-  },
+  // {
+  //   sName: "Twitter Icon",
+  //   logo: tweet,
+  //   href: "https://x.com/ArunavGm",
+  // },
   {
     sName: "WhatsApp Icon",
     logo: whats,

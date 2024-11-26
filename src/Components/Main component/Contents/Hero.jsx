@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import "./Hero-module.css";
+import "./Hero.css";
 
 import MyMemoji from "../../../My Memoji/Without background/Hii-NB.png";
 import DynamicSocial from "../../../Dynamic Data/DynamicSocial";

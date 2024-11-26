@@ -12,7 +12,7 @@
   font-family: "Lato", sans-serif;
   padding: 0 10.8rem;
   position: fixed;
-  color: #aaaaaa;
+  color: #000;
   width: 100%;
   top: 0;
   transition: all 0.5s;
@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.8rem;
+  /* gap: 0.8rem; */
   cursor: pointer;
 }
 
@@ -40,7 +40,7 @@
   align-items: center;
   justify-content: center;
   transition: height 0.5s;
-  filter: invert(0.83);
+  filter: brightness(0.93);
 }
 
 /* ************************* */
@@ -48,25 +48,21 @@
 /* ************************* */
 
 #navArea {
-  background-color: #2b2b2b;
+  background-color: #eee;
 }
 
 #navArea.is-sticky {
-  background: #3b3b3b;
-  box-shadow: 0px 2px 21px 2px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  box-shadow: 0px 1px 8px 1px rgba(85, 85, 85, 0.18);
 }
 
 #navArea.is-sticky .logo {
-  filter: brightness(0.77) invert(1);
+  filter: brightness(1);
 }
 
-#navArea.is-sticky a {
-  color: #fff;
-}
-
-#navArea.is-sticky .main-nav-list .main-nav-link:hover {
+/* #navArea.is-sticky .main-nav-list .main-nav-link:hover {
   background-color: #4d4d4d;
-}
+} */
 
 /* ************************* */
 /* NAVIGATION */
@@ -84,7 +80,7 @@
 }
 
 .main-nav-list li a:hover {
-  background-color: #3b3b3b;
+  background-color: #ddd;
 }
 
 .main-nav-link {
@@ -111,7 +107,7 @@
   height: 3px;
   left: 0;
   bottom: -3px;
-  background-color: #f1f1f1;
+  background-color: #2b2b2b;
   transition: width 0.3s ease-in-out;
 }
 
@@ -122,3 +118,50 @@
 .main-nav-list li .main-nav-link.main-nav-link.active::before {
   width: 100%;
 }
+
+/* ************************* */
+/* SAVE IT FOR DARK MODE */
+/* ************************* */
+
+/* 
+.header{
+color: #aaaaaa;
+}
+
+.logo{
+filter: invert(0.83);
+}
+
+#navArea {
+  background-color: #2b2b2b;
+}
+
+#navArea.is-sticky {
+  background: #3b3b3b;
+  box-shadow: 0px 2px 21px 2px rgba(0, 0, 0, 0.25);
+}
+
+#navArea.is-sticky a {
+  color: #fff;
+}
+
+#navArea.is-sticky .logo {
+  filter: brightness(0.77) invert(1);
+}
+
+#navArea.is-sticky a {
+  color: #fff;
+}
+
+#navArea.is-sticky .main-nav-list .main-nav-link:hover {
+  background-color: #4d4d4d;
+}
+
+.main-nav-list li a:hover {
+  background-color: #3b3b3b;
+}
+
+.main-nav-list li .main-nav-link::before{
+background-color: #f1f1f1;
+}
+ */

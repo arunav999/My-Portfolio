@@ -1,7 +1,7 @@
 .hero-section {
   margin-top: 6.5rem;
   padding: 4.8rem;
-  background-color: #2b2b2b;
+  background-color: #eee;
 }
 
 .my-info {
@@ -12,7 +12,9 @@
   padding: 4.2rem;
   font-size: 3.8rem;
   font-weight: 500;
+  border-radius: 20px;
   /* font-family: "Ubuntu", sans-serif; */
+  /* box-shadow: inset 0px 0px 18px 4px rgba(25, 25, 25, 1); */
 }
 
 .greeting {
@@ -117,7 +119,7 @@
 .memoji-item {
   overflow: hidden;
   border-radius: 50%;
-  box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 18px 4px rgba(25, 25, 25, 1);
   transition: all 0.5s;
 }
 
