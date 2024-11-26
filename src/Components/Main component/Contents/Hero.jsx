@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
-
+import React from "react";
 import { Link } from "react-scroll";
 
 import "./Hero.css";
-import useTypingEffect from "../../../Dynamic Data/TypingLogic";
 
+import useTypingEffect from "../../../Dynamic Data/TypingLogic";
 import MyMemoji from "../../../My Memoji/Without background/Hii-NB.png";
 import DynamicSocial from "../../../Dynamic Data/DynamicSocial";
 

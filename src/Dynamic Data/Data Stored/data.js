@@ -66,8 +66,29 @@ const myData = [
   },
 ];
 
+// MY-EDUCATION-DATA
+const myEducationData = [
+  {
+    instituteName: "Sathyabma Institute of Science and Technology",
+    stream: "B.E in Computer Science Engineering",
+    year: "2018-2024",
+    status: "Completed",
+  },
+  {
+    instituteName: "Sri Chaitanya Techno School | CBSE",
+    stream: "PMCE-IP",
+    year: "2015-2018",
+    status: "Completed",
+  },
+  {
+    instituteName: "Vikash Residentianl School | CBSE",
+    stream: "Science",
+    year: "2011-2015",
+    status: "Completed",
+  },
+];
+
 // TYPING DATA
-// constants.js
 const typingConfig = [
   {
     texts: ["Web Designing", "Web Development", "Frontend Development"],
@@ -79,4 +100,4 @@ const typingConfig = [
 ];
 
 export default skillsData;
-export { myData, typingConfig };
+export { myData, myEducationData, typingConfig };
