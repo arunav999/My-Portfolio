@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { typingConfig } from "./Data Stored/data";
 
-const useTypingEffect = () => {
+const TypingLogic = () => {
   const { texts, typingDuration, deletingDuration, blinkSpeed, pauseDuration } =
     typingConfig[0];
 
@@ -64,4 +64,4 @@ const useTypingEffect = () => {
   return state;
 };
 
-export default useTypingEffect;
+export default TypingLogic;

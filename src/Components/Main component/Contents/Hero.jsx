@@ -3,12 +3,12 @@ import { Link } from "react-scroll";
 
 import "./Hero.css";
 
-import useTypingEffect from "../../../Dynamic Data/TypingLogic";
+import TypingLogic from "../../../Dynamic Data/TypingLogic";
 import MyMemoji from "../../../My Memoji/Without background/Hii-NB.png";
 import DynamicSocial from "../../../Dynamic Data/DynamicSocial";
 
 const Hero = () => {
-  const state = useTypingEffect();
+  const state = TypingLogic();
 
   return (
     <section className="hero-section grid grid--2-cols" id="Home">
