@@ -1,10 +1,17 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
 import "./Header-module.css";
 import Logo1 from "../../logo/AS-White.png";
 
 const Header = () => {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const toggleTheme = () => {
+    setIsDarkMode((prevMode) => !prevMode);
+    document.body.className = isDarkMode ? "light-mode" : "dark-mode";
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       const navArea = document.getElementById("navArea");
@@ -23,28 +30,30 @@ const Header = () => {
   return (
     <header className="header" id="navArea">
       <div className="myName">
-        <a href="#">
+        <Link
+          className=""
+          to="Home"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
           <img src={Logo1} alt="My name logo." className="logo" />
-        </a>
-        <a href="#" className="name">
+        </Link>
+        <Link
+          className="name"
+          to="Home"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
           Arunav
-        </a>
+        </Link>
       </div>
+
       <nav className="main-nav">
         <ul className="main-nav-list">
-          <li>
-            <Link
-              className="main-nav-link"
-              activeClass="active"
-              to="Home"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-            >
-              Home
-            </Link>
-          </li>
           <li>
             <Link
               className="main-nav-link"
@@ -110,6 +119,11 @@ const Header = () => {
               Contact
             </Link>
           </li>
+          {/* <li>
+            <button onClick={toggleTheme} className="theme-toggle-btn">
+              {isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
+            </button>
+          </li> */}
         </ul>
       </nav>
     </header>
