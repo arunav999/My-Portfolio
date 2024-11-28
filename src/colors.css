@@ -34,7 +34,7 @@ color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
   --Aquamarine: #74bdcb;
   --Salmon: #ffa384;
   --Freesia: #efe7bc;
-  
+
   /* Tints */
   --BabyBlueTint: #51848e;
 
@@ -43,7 +43,7 @@ color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
   --LightBlack: #0d0d0d;
   --DarkGrey: #333333;
   --VreyDarkGrey: #1a1a1a;
-  --PecockBlue: #183c43
+  --PecockBlue: #183c43;
 }
 
 /* All header */
@@ -54,8 +54,6 @@ color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
 .heading-secondary span {
   color: "";
 }
-
-
 
 /* HEADER COMPONENTS CSS-FILE */
 .header {
@@ -135,14 +133,8 @@ background-color: #f1f1f1;
   color: var(--VreyDarkGrey);
 }
 
-.my-name span {
-  color: var(--PecockBlue);
-}
-
-.dynamic p:last-child {
-  color: var(--PecockBlue);
-}
-
+.my-name span,
+.dynamic p:last-child,
 .dynamic p span {
   color: var(--PecockBlue);
 }
@@ -158,6 +150,14 @@ background-color: #f1f1f1;
   background-color: var(--BabyBlueTint);
   box-shadow: 0px 0px 5px 1px var(--BabyBlueTint);
   color: var(--CrystalWhite);
+}
+
+.my-link-list span:hover {
+  background-color: var(--Aquamarine);
+}
+
+.social-icon:hover{
+  filter: invert(1);
 }
 
 .memoji-item:hover {

@@ -24,21 +24,9 @@
   gap: 2.2rem;
   padding: 4.2rem;
   font-size: 5.8rem;
-  font-weight: 750;
+  font-weight: 700;
   border-radius: 20px;
 }
-
-/* .greeting {
-  color: #21076a;
-}
-
-.my-name {
-  color: #21076a;
-}
-
-.my-name span {
-  color: #700827;
-} */
 
 /* ************************* */
 /* AUTO-TYPING */
@@ -49,17 +37,12 @@
   gap: 0.6rem;
 
   font-size: 2.4rem;
-  font-weight: 550;
+  font-weight: 500;
 }
 
-/* .dynamic p:last-child {
-  color: #700827;
-} */
-
 .dynamic p span {
-  /* color: #700827; */
-  font-weight: 750;
-  transition: opacity 0.2s ease-in-out;
+  font-weight: 700;
+  transition: opacity 0.3s ease-in-out;
 }
 
 /* ************************* */
@@ -70,7 +53,7 @@
   text-decoration: none;
   padding: 1.2rem 2.2rem;
   font-size: 2.2rem;
-  font-weight: 400;
+  font-weight: 500;
   border-radius: 8px;
   cursor: pointer;
 
@@ -79,16 +62,7 @@
   justify-content: center;
   gap: 0.4rem;
   width: 20rem;
-  /* color: #fff;
-  background-color: #0b0899;
-  box-shadow: 0px 0px 6px 3px rgba(11, 8, 153, 0.45); */
   transition: all 0.3s ease-in-out;
-}
-
-.about-me-link:hover,
-.about-me-link:active {
-  background-color: #08066d;
-  box-shadow: 0px 0px 15px 5px rgba(8, 6, 109, 0.45);
 }
 
 .down-arrow-icon {
@@ -101,14 +75,9 @@
 /* ************************* */
 
 .social-icon {
-  height: 3.4rem;
-  width: 3.4rem;
-  transition: all 0.3s;
-}
-
-.social-icon:hover {
-  height: 3.8rem;
-  width: 3.8rem;
+  height: 3.2rem;
+  width: 3.2rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .my-link-list {
@@ -119,12 +88,22 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 3.2rem;
+  gap: 0.8rem;
 }
 
 .my-link:link,
 .my-link:visited {
   text-decoration: none;
+}
+
+.my-link-list a span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 /* ************************* */
@@ -141,19 +120,14 @@
   overflow: hidden;
   border-radius: 50%;
   box-shadow: inset 0px 0px 18px 4px rgba(25, 25, 25, 0.2);
-  transition: all 0.5s;
-}
-
-.memoji-item:hover {
-  box-shadow: -4px 1px 37px 4px rgba(190, 190, 190, 1);
-  background-color: #bebebe;
+  transition: all 0.3s ease-in-out;
 }
 
 .memoji-item img {
   display: block;
   height: 50.4rem;
   width: 50.4rem;
-  transition: transform 0.5s;
+  transition: transform 0.3s ease-in-out;
 }
 
 .memoji-item img:hover {
