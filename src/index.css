@@ -12,8 +12,6 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  /* transition: all 0.3s ease-in-out; */
-  /* font-family: "Roboto"; */
   /* border: 1px solid #333; */
 }
 
@@ -67,6 +65,9 @@ section {
 .sec-container {
   width: 120rem;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
 }
 
 /* ************************* */
@@ -80,7 +81,7 @@ section {
 
 .heading-secondary {
   font-family: "Sen", sans-serif;
-  font-weight: 750;
+  font-weight: 700;
   font-size: 4.5rem;
   padding: 1.8rem;
   
