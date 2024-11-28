@@ -1,0 +1,261 @@
+/* 
+This CSS file defines the color palette for the project. All color variables for components and elements are centralized here for consistency and ease of maintenance.
+It includes:
+
+- Primary, Secondary, and Accent colors.
+
+- Neutral colors for backgrounds, text, and borders.
+
+- State colors (Success, Warning, Error, Info).
+- Additional colors for links, hover effects, and highlights.
+
+Use these variables to ensure uniform styling across the project. Adjustments can be made here for global updates.
+*/
+
+/* 
+On these background colors use these font colors for readibility.
+
+Bg- #E7F2F8 
+color- #1A1A1A (Very Dark Grey) / #333333 (Dark grey) 
+
+Bg- #74BDCB
+color- #000000 (Black) /  #1A1A1A (Very Dark Grey)
+
+Bg- #FFA384
+color- #0D0D0D (Light black) / #1a1a1a (Very Dark Grey)
+
+Bg- #efe7bc
+color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
+*/
+
+:root {
+  --CrystalWhite: #ffffff;
+  --BabyBlue: #e7f2f8;
+  --Aquamarine: #74bdcb;
+  --Salmon: #ffa384;
+  --Freesia: #efe7bc;
+  
+  /* Tints */
+  --BabyBlueTint: #51848e;
+
+  /* ----COLORS----- */
+  --Black: #000000;
+  --LightBlack: #0d0d0d;
+  --DarkGrey: #333333;
+  --VreyDarkGrey: #1a1a1a;
+  --PecockBlue: #183c43
+}
+
+/* All header */
+.heading-secondary {
+  color: "";
+}
+
+.heading-secondary span {
+  color: "";
+}
+
+
+
+/* HEADER COMPONENTS CSS-FILE */
+.header {
+  color: var(--DarkGrey);
+}
+
+#navArea {
+  background-color: var(--BabyBlue);
+}
+
+#navArea.is-sticky {
+  background-color: var(--Aquamarine);
+  box-shadow: 0px 1px 8px 1px var(--Aquamarine);
+  color: var(--Black);
+}
+
+.main-nav-list li a:hover {
+  background-color: var(--Freesia);
+  color: var(--DarkGrey);
+}
+
+.main-nav-list li .main-nav-link::before {
+  background-color: var(--VreyDarkGrey);
+}
+
+/* ************************* */
+/* SAVE IT FOR DARK MODE */
+/* ************************* */
+
+/* 
+.header{
+color: #aaaaaa;
+}
+
+
+#navArea {
+  background-color: #2b2b2b;
+}
+
+#navArea.is-sticky {
+  background: #3b3b3b;
+  box-shadow: 0px 2px 21px 2px rgba(0, 0, 0, 0.25);
+}
+
+#navArea.is-sticky a {
+  color: #fff;
+}
+
+#navArea.is-sticky a {
+  color: #fff;
+}
+
+#navArea.is-sticky .main-nav-list .main-nav-link:hover {
+  background-color: #4d4d4d;
+}
+
+.main-nav-list li a:hover {
+  background-color: #3b3b3b;
+}
+
+.main-nav-list li .main-nav-link::before{
+background-color: #f1f1f1;
+}
+ */
+
+/* HERO COMPONENTS CSS-FILE */
+
+.hero-section {
+  background-color: var(--BabyBlue);
+}
+
+.greeting {
+  color: var(--Black);
+}
+
+.my-name {
+  color: var(--VreyDarkGrey);
+}
+
+.my-name span {
+  color: var(--PecockBlue);
+}
+
+.dynamic p:last-child {
+  color: var(--PecockBlue);
+}
+
+.dynamic p span {
+  color: var(--PecockBlue);
+}
+
+.about-me-link {
+  color: var(--VreyDarkGrey);
+  background-color: var(--Aquamarine);
+  box-shadow: 0px 0px 6px 1px var(--Aquamarine);
+}
+
+.about-me-link:hover,
+.about-me-link:active {
+  background-color: var(--BabyBlueTint);
+  box-shadow: 0px 0px 5px 1px var(--Aquamarine);
+  color: var(--CrystalWhite);
+}
+
+.memoji-item:hover {
+  box-shadow: -4px 1px 37px 4px var(--Freesia);
+  background-color: var(--Freesia);
+}
+
+/* ABOUT-ME COMPONENTS CSS-FILE */
+.aboutMeSection {
+  background-color: #fff;
+}
+
+.memoji-working {
+  box-shadow: 0px 0px 18px 4px rgba(25, 25, 25, 0.09);
+}
+
+.memoji-working:hover {
+  background-color: antiquewhite;
+  box-shadow: -4px 1px 37px 4px rgba(214, 170, 26, 0.54);
+}
+
+.content .desc {
+  color: #444;
+}
+
+.contact-link:link span,
+.contact-link:visited span,
+.place span {
+  color: #6666ff;
+}
+
+.contact-link:hover span,
+.contact-link:active span,
+.place:hover span {
+  color: #000099;
+}
+
+.contact-link:link span:last-child,
+.contact-link:visited span:last-child,
+.place span:last-child {
+  color: #181818;
+}
+
+.res-link:link,
+.res-link:visited {
+  color: #fff;
+  background-color: #000099;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.res-link:hover,
+.res-link:active {
+  background-color: #00004d;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 77, 0.55);
+}
+
+/* SKILLS COMPONENTS CSS-FILE */
+.skillsSection {
+  /* background: linear-gradient(291deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(27,0,76,1) 100%); */
+  /* background: rgb(124, 214, 228); */
+  background: linear-gradient(
+    342deg,
+    rgba(124, 214, 228, 1) 0%,
+    rgba(221, 221, 221, 1) 50%,
+    rgba(79, 188, 124, 1) 100%
+  );
+}
+
+.skills-container {
+  color: #fff;
+  background-color: #350099;
+}
+
+.bar {
+  background-color: #120033;
+}
+
+.bar:hover {
+  box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #090019;
+}
+
+.filter {
+  filter: brightness(0) invert(1);
+}
+
+/* MY-EDUCATION COMPONENTS CSS-FILE */
+
+/* ------------------------ */
+
+/* PROJECTS-MADE COMPONENTS CSS-FILE */
+
+/* ------------------------ */
+
+/* CONTACT-ME COMPONENTS CSS-FILE */
+
+/* ------------------------ */
+
+/* FOOTER COMPONENTS CSS-FILE */
+
+/* ------------------------ */

@@ -5,6 +5,7 @@ import Main from "./Components/Main component/Main";
 import Footer from "./Components/Footer Component/Footer";
 
 import "./index.css";
+import "./colors.css";
 
 function App() {
   return (

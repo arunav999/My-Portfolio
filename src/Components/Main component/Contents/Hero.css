@@ -5,7 +5,6 @@
 .hero-section {
   margin-top: 6.5rem;
   padding: 4.8rem;
-  background-color: #eee;
   font-family: "Roboto", sans-serif;
   height: 100vh;
 
@@ -29,7 +28,7 @@
   border-radius: 20px;
 }
 
-.greeting {
+/* .greeting {
   color: #21076a;
 }
 
@@ -39,7 +38,7 @@
 
 .my-name span {
   color: #700827;
-}
+} */
 
 /* ************************* */
 /* AUTO-TYPING */
@@ -53,12 +52,12 @@
   font-weight: 550;
 }
 
-.dynamic p:last-child {
+/* .dynamic p:last-child {
   color: #700827;
-}
+} */
 
 .dynamic p span {
-  color: #700827;
+  /* color: #700827; */
   font-weight: 750;
   transition: opacity 0.2s ease-in-out;
 }
@@ -72,7 +71,7 @@
   padding: 1.2rem 2.2rem;
   font-size: 2.2rem;
   font-weight: 400;
-  border-radius: 22px;
+  border-radius: 8px;
   cursor: pointer;
 
   display: flex;
@@ -80,10 +79,10 @@
   justify-content: center;
   gap: 0.4rem;
   width: 20rem;
-  color: #fff;
+  /* color: #fff;
   background-color: #0b0899;
-  box-shadow: 0px 0px 6px 3px rgba(11, 8, 153, 0.45);
-  transition: all 0.5s;
+  box-shadow: 0px 0px 6px 3px rgba(11, 8, 153, 0.45); */
+  transition: all 0.1s;
 }
 
 .about-me-link:hover,

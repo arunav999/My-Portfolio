@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Skills-module.css";
+import "./Skills.css";
 
 import DynamicLoading from "../../../Dynamic Data/DynamicLoading";
 

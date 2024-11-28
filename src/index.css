@@ -4,9 +4,7 @@
 /* Avenir Next (Sen) font-family */
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
 
-/* Calibri (Carlito) font-family */
-@import url("https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
+/* Roboto */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
@@ -14,6 +12,7 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
+  /* transition: all 0.3s ease-in-out; */
   /* font-family: "Roboto"; */
   /* border: 1px solid #333; */
 }
@@ -26,12 +25,12 @@ html {
 
 /* Default Light Mode */
 
-body {
+/* body {
   height: 120rem;
-  /* background-color: #2b2b2b; */
-}
+  background-color: #2b2b2b;
+} */
 
-body.light-mode {
+/* body.light-mode {
   background-color: #ffffff;
   color: #000000;
 }
@@ -54,7 +53,7 @@ body.dark-mode {
 
 .theme-toggle-btn:hover {
   background-color: #0056b3;
-}
+} */
 
 #root {
   position: relative;
@@ -89,10 +88,5 @@ section {
   align-items: center;
   justify-content: center;
   gap: 1.2rem;
-  color: #000;
   text-align: center;
-}
-
-.heading-secondary span {
-  color: #6a1aff;
 }

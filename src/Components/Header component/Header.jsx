@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Link } from "react-scroll";
 
 import "./Header.css";
-import Logo1 from "../../logo/AS-White.png";
 
 const Header = () => {
   useEffect(() => {
@@ -23,16 +22,6 @@ const Header = () => {
   return (
     <header className="header" id="navArea">
       <div className="myName">
-        <Link
-          className=""
-          to="Home"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-        >
-          <img src={Logo1} alt="My name logo." className="logo" />
-        </Link>
         <Link
           className="name"
           to="Home"
