@@ -30,7 +30,7 @@ const Hero = () => {
           to="About"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-70}
           duration={500}
         >
           <span>About me</span>
