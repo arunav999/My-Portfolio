@@ -82,7 +82,7 @@
   /* color: #fff;
   background-color: #0b0899;
   box-shadow: 0px 0px 6px 3px rgba(11, 8, 153, 0.45); */
-  transition: all 0.1s;
+  transition: all 0.3s ease-in-out;
 }
 
 .about-me-link:hover,

@@ -156,7 +156,7 @@ background-color: #f1f1f1;
 .about-me-link:hover,
 .about-me-link:active {
   background-color: var(--BabyBlueTint);
-  box-shadow: 0px 0px 5px 1px var(--Aquamarine);
+  box-shadow: 0px 0px 5px 1px var(--BabyBlueTint);
   color: var(--CrystalWhite);
 }
 

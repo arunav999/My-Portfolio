@@ -6,7 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* gap: 70rem; */
 
   height: 8.6rem;
   font-family: "Sen", sans-serif;
@@ -36,26 +35,17 @@
 /* FIXED-SCROLL*/
 /* ************************* */
 
-/* #navArea {
-  background-color: #eee;
-} */
-
 #navArea.is-sticky {
- height: 6.6rem;
+  height: 6.6rem;
 }
 
-#navArea.is-sticky .myName a{
+#navArea.is-sticky .myName a {
   font-weight: 500;
 }
 
-#navArea.is-sticky .main-nav-list{
+#navArea.is-sticky .main-nav-list {
   gap: 3.8rem;
 }
-
-
-/* #navArea.is-sticky .main-nav-list .main-nav-link:hover {
-  background-color: #4d4d4d;
-} */
 
 /* ************************* */
 /* NAVIGATION */
@@ -98,7 +88,6 @@
   height: 3px;
   left: 0;
   bottom: -3px;
-  background-color: #2b2b2b;
   transition: width 0.3s ease-in-out;
 }
 
