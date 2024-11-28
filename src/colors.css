@@ -68,6 +68,7 @@ color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
   background-color: var(--Aquamarine);
   box-shadow: 0px 1px 8px 1px var(--Aquamarine);
   color: var(--Black);
+  border-radius: 0px 0px 8px 8px;
 }
 
 .main-nav-list li a:hover {

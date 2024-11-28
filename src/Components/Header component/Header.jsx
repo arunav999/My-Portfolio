@@ -43,7 +43,7 @@ const Header = () => {
               to="About"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-80}
               duration={500}
             >
               About
