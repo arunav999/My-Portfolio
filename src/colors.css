@@ -36,6 +36,7 @@ color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
   --Freesia: #efe7bc;
 
   /* Tints */
+  --AquamarineTint: #e3f2f5;
   --BabyBlueTint: #51848e;
 
   /* ----COLORS----- */
@@ -219,31 +220,30 @@ background-color: #f1f1f1;
 
 /* SKILLS COMPONENTS CSS-FILE */
 .skillsSection {
-  /* background: linear-gradient(291deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(27,0,76,1) 100%); */
-  /* background: rgb(124, 214, 228); */
-  background: linear-gradient(
-    342deg,
-    rgba(124, 214, 228, 1) 0%,
-    rgba(221, 221, 221, 1) 50%,
-    rgba(79, 188, 124, 1) 100%
-  );
+  background: linear-gradient(304deg, var(--Salmon) 0%, var(--Freesia) 100%);
 }
 
 .skills-container {
-  color: #fff;
-  background-color: #350099;
+  color: var(--VreyDarkGrey);
 }
 
 .bar {
-  background-color: #120033;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.25);
+  background-color: var(--AquamarineTint);
+  transition: all 0.3s ease-in-out;
 }
 
 .bar:hover {
-  box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75);
-  background-color: #090019;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+  color: var(--CrystalWhite);
+  background-color: var(--PecockBlue);
 }
 
-.filter {
+.bar img {
+  transition: all 0.3s ease-in-out;
+}
+
+.bar:hover .filter {
   filter: brightness(0) invert(1);
 }
 

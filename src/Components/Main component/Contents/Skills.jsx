@@ -7,7 +7,7 @@ import DynamicLoading from "../../../Dynamic Data/DynamicLoading";
 const Skills = () => {
   return (
     <section className="skillsSection" id="Skills">
-      <div className="sec-container">
+      <div className="sec-container no-gap">
         <h2 className="heading-secondary">
           <svg
             xmlns="http://www.w3.org/2000/svg"

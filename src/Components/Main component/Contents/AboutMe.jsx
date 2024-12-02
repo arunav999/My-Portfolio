@@ -7,7 +7,7 @@ import WorkingNB from "../../../My Memoji/Without background/Working-NB.png";
 const AboutMe = () => {
   return (
     <section className="aboutMeSection" id="About">
-      <div className="sec-container">
+      <div className="sec-container content-gap">
         <h2 className="heading-secondary">
           <svg
             xmlns="http://www.w3.org/2000/svg"
