@@ -256,14 +256,8 @@ background-color: #f1f1f1;
 }
 
 .edu-box:hover {
-  /* background: var(--BabyBlueTint); */
-  /* color: var(--CrystalWhite); */
   box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
 }
-
-/* .edu-content h3 {
-  color: var(--VreyDarkGrey);
-} */
 
 /* ------------------------ */
 

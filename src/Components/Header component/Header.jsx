@@ -82,7 +82,7 @@ const Header = () => {
               to="Projects"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-25}
               duration={500}
             >
               Projects
