@@ -69,7 +69,7 @@ const Header = () => {
               to="Education"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-40}
               duration={500}
             >
               Education

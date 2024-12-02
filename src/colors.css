@@ -230,7 +230,6 @@ background-color: #f1f1f1;
 .bar {
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.25);
   background-color: var(--AquamarineTint);
-  transition: all 0.3s ease-in-out;
 }
 
 .bar:hover {
@@ -239,15 +238,32 @@ background-color: #f1f1f1;
   background-color: var(--PecockBlue);
 }
 
-.bar img {
-  transition: all 0.3s ease-in-out;
-}
-
 .bar:hover .filter {
   filter: brightness(0) invert(1);
 }
 
 /* MY-EDUCATION COMPONENTS CSS-FILE */
+.eduSection {
+  background: var(--BabyBlue);
+}
+
+.edu-box {
+  background: var(--CrystalWhite);
+  color: var(--PecockBlue);
+  border-radius: 1rem;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.edu-box:hover {
+  /* background: var(--BabyBlueTint); */
+  /* color: var(--CrystalWhite); */
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* .edu-content h3 {
+  color: var(--VreyDarkGrey);
+} */
 
 /* ------------------------ */
 

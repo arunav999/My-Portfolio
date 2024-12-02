@@ -6,6 +6,9 @@ import NextIcon from "../../logo/tech-logo/nextjs-icon.png";
 import GithubIcon from "../../logo/tech-logo/github-icon.png";
 import GitIcon from "../../logo/tech-logo/git_VCS-icon.png";
 import NetifyIcon from "../../logo/tech-logo/netify-icon.png";
+import SathyabamaLogo from "../../img/SUlogo.png";
+import ChaitanyaLogo from "../../img/Sri-Ch.png";
+import VikashLogo from "../../img/Vikash.png";
 
 // ICONS-DATA
 const skillsData = [
@@ -69,19 +72,28 @@ const myData = [
 // MY-EDUCATION-DATA
 const myEducationData = [
   {
-    instituteName: "Sathyabma Institute of Science and Technology",
+    instituteName: "Sathyabma University",
+    logo: SathyabamaLogo,
+    logoAlt: "Sathyabama University Logo",
+    location:"Chennai, TN",
     stream: "B.E in Computer Science Engineering",
     year: "2018-2024",
     status: "Completed",
   },
   {
     instituteName: "Sri Chaitanya Techno School | CBSE",
+    logo: ChaitanyaLogo,
+    logoAlt: "Sri Chaitanya Logo",
+    location:"Visakhapatnam, AP",
     stream: "PMCE-IP",
-    year: "2015-2018",
+    year: "2015-2017",
     status: "Completed",
   },
   {
-    instituteName: "Vikash Residentianl School | CBSE",
+    instituteName: "Vikash Residential School | CBSE",
+    logo: VikashLogo,
+    logoAlt: "Vikash School Logo",
+    location:"Bargarh, OD",
     stream: "Science",
     year: "2011-2015",
     status: "Completed",

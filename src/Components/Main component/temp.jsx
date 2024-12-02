@@ -118,3 +118,27 @@
             </a>
           </li>
         </ul>
+
+         {/* <div className="edu-container">
+          <div className="edu-box">
+            <div className="edu-img">
+              <img src={Sathyabma} alt="Sathyabma University logo" />
+            </div>
+            <div className="edu-content">
+              <h3>Bachelor of Engineering in Computer Science Engineering</h3>
+              <p>Sathyabma Institute of Science and Technology</p>
+              <h4>2018 - 2022 | Completed</h4>
+            </div>
+          </div>
+
+          <div className="edu-box">
+            <div className="edu-img">
+              <img src={Chaitanya} alt="Sri chaitanya logo" />
+            </div>
+            <div className="edu-content">
+              <h3>PMCE-IP </h3>
+              <p>Sri Chaitanya Techno School | CBSE</p>
+              <h4>2015 - 2018 | Completed</h4>
+            </div>
+          </div>
+        </div> */}

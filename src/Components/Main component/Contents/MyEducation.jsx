@@ -1,13 +1,13 @@
 import React from "react";
 
 import "./MyEducation-module.css";
-import Sathyabma from "../../../img/SUlogo.png";
-import Chaitanya from "../../../img/Sri-Ch.png";
+
+import { DynamicLoadingEducation } from "../../../Dynamic Data/DynamicLoading";
 
 const MyEducation = () => {
   return (
-    <>
-      <section className="sec-container" id="Education">
+    <section className="eduSection" id="Education">
+      <div className="sec-container no-gap">
         <h2 className="heading-secondary">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -23,31 +23,10 @@ const MyEducation = () => {
           Education is not merely about acquiring facts, it is the art of
           cultivating a mind that thinks critically and creatively.
         </p>
-        <div className="edu-container">
-          <div className="edu-box">
-            <div className="edu-img">
-              <img src={Sathyabma} alt="Sathyabma University logo" />
-            </div>
-            <div className="edu-content">
-              <h3>Bachelor of Engineering in Computer Science Engineering</h3>
-              <p>Sathyabma Institute of Science and Technology</p>
-              <h4>2018 - 2022 | Completed</h4>
-            </div>
-          </div>
 
-          <div className="edu-box">
-            <div className="edu-img">
-              <img src={Chaitanya} alt="Sri chaitanya logo" />
-            </div>
-            <div className="edu-content">
-              <h3>PMCE-IP </h3>
-              <p>Sri Chaitanya Techno School | CBSE</p>
-              <h4>2015 - 2018 | Completed</h4>
-            </div>
-          </div>
-        </div>
-      </section>
-    </>
+        <DynamicLoadingEducation />
+      </div>
+    </section>
   );
 };
 
