@@ -11,51 +11,8 @@ import ChaitanyaLogo from "../../img/Sri-Ch.png";
 import VikashLogo from "../../img/Vikash.png";
 import OmniSS from "../../img/Projects Screenshots/Omni-ss.png";
 
-// ICONS-DATA
-const skillsData = [
-  {
-    $name: "HTML",
-    imgSrc: HtmlIcon,
-    altText: "Html icon",
-  },
-  {
-    $name: "CSS",
-    imgSrc: CssIcon,
-    altText: "Css icon",
-  },
-  {
-    $name: "Javascript",
-    imgSrc: JsIcon,
-    altText: "Javascript icon",
-  },
-  {
-    $name: "React",
-    imgSrc: ReactIcon,
-    altText: "React icon",
-  },
-  {
-    $name: "Next JS",
-    imgSrc: NextIcon,
-    altText: "Next JS icon",
-    filter: true,
-  },
-  {
-    $name: "Github",
-    imgSrc: GithubIcon,
-    altText: "Github icon",
-    filter: true,
-  },
-  {
-    $name: "Git VCS",
-    imgSrc: GitIcon,
-    altText: "Git VCS icon",
-  },
-  {
-    $name: "Netify",
-    imgSrc: NetifyIcon,
-    altText: "Netify icon",
-  },
-];
+/*-------------------------------------- */
+/*-------------------------------------- */
 
 // MY-DATA
 const myData = [
@@ -138,6 +95,52 @@ const myProjectsData = [
     proDesc: "Omnifood project built in HTML, CSS and Javascript",
     proVisit: "https://adorable-dusk-9a2e6d.netlify.app/",
     proCode: "https://github.com/arunav999/OMNI_FOOD-Project",
+  },
+];
+
+// ICONS-DATA
+const skillsData = [
+  {
+    $name: "HTML",
+    imgSrc: HtmlIcon,
+    altText: "Html icon",
+  },
+  {
+    $name: "CSS",
+    imgSrc: CssIcon,
+    altText: "Css icon",
+  },
+  {
+    $name: "Javascript",
+    imgSrc: JsIcon,
+    altText: "Javascript icon",
+  },
+  {
+    $name: "React",
+    imgSrc: ReactIcon,
+    altText: "React icon",
+  },
+  {
+    $name: "Next JS",
+    imgSrc: NextIcon,
+    altText: "Next JS icon",
+    filter: true,
+  },
+  {
+    $name: "Github",
+    imgSrc: GithubIcon,
+    altText: "Github icon",
+    filter: true,
+  },
+  {
+    $name: "Git VCS",
+    imgSrc: GitIcon,
+    altText: "Git VCS icon",
+  },
+  {
+    $name: "Netify",
+    imgSrc: NetifyIcon,
+    altText: "Netify icon",
   },
 ];
 
