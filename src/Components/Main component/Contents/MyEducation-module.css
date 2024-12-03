@@ -1,14 +1,20 @@
+/* ************************* */
+/* EDUCATION */
+/* ************************* */
 .eduSection {
   padding: 2.6rem 0 8.6rem 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .quote {
   text-align: center;
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
+/* ************************* */
+/* EDU-CONTAIN */
+/* ************************* */
 .edu-container {
   display: flex;
   flex-direction: column;
@@ -29,6 +35,9 @@
   width: 15.4rem;
 }
 
+/* ************************* */
+/* EDU-CONTENT */
+/* ************************* */
 .edu-content {
   padding: 1rem;
   width: 100%;
@@ -42,15 +51,15 @@
 .edu-content h3 {
   font-family: "Sen", sans-serif;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .edu-content p:nth-last-child(3) {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .edu-content h4 {
   letter-spacing: 0.2rem;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 400;
 }

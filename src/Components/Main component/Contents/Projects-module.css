@@ -1,3 +1,6 @@
+/* ************************* */
+/* PROJECTS */
+/* ************************* */
 .proSection {
   padding: 2.6rem 0 8.6rem 0;
 }
@@ -27,7 +30,7 @@
 .box-content {
   height: 100%;
   width: 100%;
-  font-family: "Sen", sans-serif;
+  font-family: "Rubik", sans-serif;
   position: absolute;
   top: 85%;
   left: 0;
@@ -36,6 +39,9 @@
   transition: all 0.5s;
 }
 
+/* ************************* */
+/* PRO-INFO-HIDDEN */
+/* ************************* */
 .box-content .tag {
   display: flex;
   flex-direction: row;
@@ -48,12 +54,16 @@
 
 .box-content .tag h3 {
   font-size: 2rem;
+  font-weight: 450;
 }
 
 .pro-box:hover .box-content {
   top: 25%;
 }
 
+/* ************************* */
+/* PRO-DESC */
+/* ************************* */
 .pro-desc {
   margin: 2rem;
   display: flex;

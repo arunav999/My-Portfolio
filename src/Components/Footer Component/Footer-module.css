@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  font-family: "Sen", sans-serif;
+  font-family: "Rubik", sans-serif;
   width: 120rem;
   margin: 0 auto;
 }
@@ -29,7 +29,7 @@
 .foot-box h3 {
   padding-bottom: 1rem;
   font-size: 2.4rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .foot-box p {
@@ -40,7 +40,7 @@
 
 .foot-box a {
   font-size: 1.4rem;
-  font-weight: 500;
+  font-weight: 400;
   padding: 0.4rem 0;
   transition: all 0.3s ease-in-out;
 }

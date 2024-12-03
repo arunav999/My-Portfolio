@@ -1,3 +1,6 @@
+/* ************************* */
+/* CONTACT */
+/* ************************* */
 .contactSection {
   padding: 3.6rem 0 8.6rem 0;
 }
@@ -16,6 +19,9 @@
   padding: 2.5rem 2rem;
 }
 
+/* ************************* */
+/* CONTACT-IMG */
+/* ************************* */
 .contact-content .contact-img {
   max-width: 60%;
   margin-left: 4rem;
@@ -28,6 +34,9 @@
   position: relative;
 }
 
+/* ************************* */
+/* CONTACT-FORM */
+/* ************************* */
 .contact-content form {
   width: 45%;
   margin-right: 3.5rem;
@@ -46,8 +55,10 @@ form .form-group {
   margin: 1rem;
   width: 100%;
 }
-/* For svg */
 
+/* ************************* */
+/* CONTACT-SVG */
+/* ************************* */
 .form-icon {
   height: 2.4rem;
   width: 1.8rem;
@@ -62,6 +73,9 @@ form .form-icon {
   transform: translateY(-50%);
 }
 
+/* ************************* */
+/* CONTACT-INPUT */
+/* ************************* */
 form .field input,
 form .message textarea {
   width: 100%;
@@ -69,7 +83,7 @@ form .message textarea {
   outline: none;
   padding: 0 16px 0 48px;
   font-size: 16px;
-  font-family: "Sen", sans-serif;
+  font-family: "Rubik", sans-serif;
   border-radius: 5px;
 }
 
@@ -102,6 +116,9 @@ form .message textarea::-webkit-scrollbar {
   width: 0px;
 }
 
+/* ************************* */
+/* CONTACT-SUBMIT-BTN */
+/* ************************* */
 form .button-area {
   display: flex;
   float: right;
@@ -116,7 +133,7 @@ form .button-area {
   border-radius: 5px;
   padding: 13px 25px;
   transition: 0.3s ease;
-  font-family: "Roboto", sans-serif;
+  font-family: "Sen", sans-serif;
 }
 
 .button-area span {

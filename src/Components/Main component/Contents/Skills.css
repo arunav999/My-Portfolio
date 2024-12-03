@@ -1,3 +1,6 @@
+/* ************************* */
+/* SKILLS */
+/* ************************* */
 .skillsSection {
   padding: 2.6rem 0;
 }
@@ -16,12 +19,15 @@
   gap: 3rem;
 }
 
+/* ************************* */
+/* SKILL-CONTAIN */
+/* ************************* */
 .bar {
   padding: 1rem;
   margin-bottom: 1.5rem;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
-  font-family: "Lato", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 1.8rem;
 }
 
