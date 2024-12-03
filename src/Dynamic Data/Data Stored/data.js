@@ -9,6 +9,7 @@ import NetifyIcon from "../../logo/tech-logo/netify-icon.png";
 import SathyabamaLogo from "../../img/SUlogo.png";
 import ChaitanyaLogo from "../../img/Sri-Ch.png";
 import VikashLogo from "../../img/Vikash.png";
+import OmniSS from "../../img/Projects Screenshots/Omni-ss.png";
 
 // ICONS-DATA
 const skillsData = [
@@ -75,16 +76,16 @@ const myEducationData = [
     instituteName: "Sathyabma University",
     logo: SathyabamaLogo,
     logoAlt: "Sathyabama University Logo",
-    location:"Chennai, TN",
+    location: "Chennai, TN",
     stream: "B.E in Computer Science Engineering",
-    year: "2018-2024",
+    year: "2018-2022",
     status: "Completed",
   },
   {
     instituteName: "Sri Chaitanya Techno School | CBSE",
     logo: ChaitanyaLogo,
     logoAlt: "Sri Chaitanya Logo",
-    location:"Visakhapatnam, AP",
+    location: "Visakhapatnam, AP",
     stream: "PMCE-IP",
     year: "2015-2017",
     status: "Completed",
@@ -93,10 +94,46 @@ const myEducationData = [
     instituteName: "Vikash Residential School | CBSE",
     logo: VikashLogo,
     logoAlt: "Vikash School Logo",
-    location:"Bargarh, OD",
+    location: "Bargarh, OD",
     stream: "Science",
     year: "2011-2015",
     status: "Completed",
+  },
+];
+
+// MY PROJECTS DATA
+const myProjectsData = [
+  {
+    proImg: OmniSS,
+    proTag: "OmniFood",
+    proAlt: "OmniFood website screenshot",
+    proDesc: "Omnifood project built in HTML, CSS and Javascript",
+    proVisit: "https://adorable-dusk-9a2e6d.netlify.app/",
+    proCode: "https://github.com/arunav999/OMNI_FOOD-Project",
+  },
+  {
+    proImg: OmniSS,
+    proAlt: "OmniFood website screenshot",
+    proTag: "OmniFood",
+    proDesc: "Omnifood project built in HTML, CSS and Javascript",
+    proVisit: "https://adorable-dusk-9a2e6d.netlify.app/",
+    proCode: "https://github.com/arunav999/OMNI_FOOD-Project",
+  },
+  {
+    proImg: OmniSS,
+    proAlt: "OmniFood website screenshot",
+    proTag: "OmniFood",
+    proDesc: "Omnifood project built in HTML, CSS and Javascript",
+    proVisit: "https://adorable-dusk-9a2e6d.netlify.app/",
+    proCode: "https://github.com/arunav999/OMNI_FOOD-Project",
+  },
+  {
+    proImg: OmniSS,
+    proAlt: "OmniFood website screenshot",
+    proTag: "OmniFood",
+    proDesc: "Omnifood project built in HTML, CSS and Javascript",
+    proVisit: "https://adorable-dusk-9a2e6d.netlify.app/",
+    proCode: "https://github.com/arunav999/OMNI_FOOD-Project",
   },
 ];
 
@@ -112,4 +149,4 @@ const typingConfig = [
 ];
 
 export default skillsData;
-export { myData, myEducationData, typingConfig };
+export { myData, myEducationData, typingConfig, myProjectsData };

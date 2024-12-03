@@ -1,13 +1,17 @@
+.proSection {
+  padding: 2.6rem 0 8.6rem 0;
+}
+
 .pro-container {
-  display: flex;
-  flex: wrap;
-  gap: 1.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4.2rem;
   margin: 2rem;
 }
 
 .pro-box {
   flex: 1 1 30rem;
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
@@ -23,10 +27,10 @@
 .box-content {
   height: 100%;
   width: 100%;
+  font-family: "Sen";
   position: absolute;
   top: 85%;
   left: 0;
-  background: rgba(255, 255, 255, 0.9);
   display: flex;
   flex-direction: column;
   transition: all 0.5s;
@@ -40,7 +44,6 @@
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
 }
 
 .box-content .tag h3 {
@@ -59,7 +62,7 @@
 }
 
 .pro-desc p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .pro-btns {
@@ -71,18 +74,16 @@
 
 .pro-btns .pro-btn {
   line-height: 0;
-  display: inline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
   padding: 1.5rem 2.5rem;
   border-radius: 0.5rem;
-  font-size: 1.5rem;
-  color: #fff;
-  background: rgb(12, 12, 12);
+  font-size: 1.8rem;
   margin-right: 2rem;
   transition: all 0.5s;
-}
-
-.pro-btns .pro-btn:hover {
-  background: #310ae0f5;
+  text-decoration: none;
 }
 
 .pro-icon {

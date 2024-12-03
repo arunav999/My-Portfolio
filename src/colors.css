@@ -38,6 +38,7 @@ color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
   /* Tints */
   --AquamarineTint: #e3f2f5;
   --BabyBlueTint: #51848e;
+  --BlurWhite: #ffffffd9;
 
   /* ----COLORS----- */
   --Black: #000000;
@@ -262,6 +263,31 @@ background-color: #f1f1f1;
 /* ------------------------ */
 
 /* PROJECTS-MADE COMPONENTS CSS-FILE */
+.proSection {
+  background: linear-gradient(304deg, var(--Salmon) 0%, var(--Freesia) 100%);
+}
+
+.box-content {
+  background: var(--BlurWhite);
+  /* background: var(--CrystalWhite); */
+}
+
+.box-content .tag {
+  background: var(--Salmon);
+}
+
+.pro-btns .pro-btn {
+  color: var(--Black);
+  background: var(--Salmon);
+}
+
+.pro-btns .pro-btn:hover {
+  background: #cc826a;
+}
+
+.pro-icon {
+  fill: var(--LightBlack);
+}
 
 /* ------------------------ */
 
