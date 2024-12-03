@@ -27,7 +27,7 @@
 .box-content {
   height: 100%;
   width: 100%;
-  font-family: "Sen";
+  font-family: "Sen", sans-serif;
   position: absolute;
   top: 85%;
   left: 0;

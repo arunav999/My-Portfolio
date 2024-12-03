@@ -95,7 +95,7 @@ const Header = () => {
               to="Contact"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-35}
               duration={500}
             >
               Contact

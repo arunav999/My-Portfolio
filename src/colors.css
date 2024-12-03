@@ -175,7 +175,7 @@ background-color: #f1f1f1;
 }
 
 .memoji-working {
-  box-shadow: 0px 0px 18px 4px rgba(25, 25, 25, 0.09);
+  box-shadow: 0px 0px 18px 4px #19191917;
 }
 
 .memoji-working:hover {
@@ -229,12 +229,12 @@ background-color: #f1f1f1;
 }
 
 .bar {
-  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 10px 1px #00000040;
   background-color: var(--AquamarineTint);
 }
 
 .bar:hover {
-  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 5px 0px #00000040;
   color: var(--CrystalWhite);
   background-color: var(--PecockBlue);
 }
@@ -252,12 +252,12 @@ background-color: #f1f1f1;
   background: var(--CrystalWhite);
   color: var(--PecockBlue);
   border-radius: 1rem;
-  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 1px 5px 2px #0000000d;
   transition: all 0.3s ease-in-out;
 }
 
 .edu-box:hover {
-  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 10px 5px #0000001a;
 }
 
 /* ------------------------ */
@@ -292,6 +292,53 @@ background-color: #f1f1f1;
 /* ------------------------ */
 
 /* CONTACT-ME COMPONENTS CSS-FILE */
+.contact-container {
+  background: linear-gradient(304deg, var(--Salmon) 0%, var(--Freesia) 100%);
+  box-shadow: 0 5px 10px #00000026;
+}
+
+.contact-content .contact-img {
+  box-shadow: inset 0px 0px 9px 0px #0000001a;
+}
+
+form .form-icon {
+  fill: var(--DarkGrey);
+}
+
+form .field input,
+form .message textarea {
+  border: 1px solid var(--DarkGrey);
+  background: var(--Freesia);
+}
+
+.field input::placeholder,
+.message textarea::placeholder {
+  color: var(--DarkGrey);
+}
+
+.field input:focus,
+.message textarea:focus {
+  border: 2px solid var(--PeseantBrown);
+}
+
+.field input:focus ~ .form-icon,
+.message textarea:focus ~ .form-icon {
+  fill: var(--VreyDarkGrey);
+}
+
+.button-area button {
+  color: var(--CrystalWhite);
+  background: var(--PeseantBrown);
+  box-shadow: 0px 5px 10px #7a1f0099;
+}
+
+.button-area button:hover {
+  background: #621900;
+}
+
+.button-area button .form-icon {
+  color: var(--CrystalWhite);
+}
 
 /* ------------------------ */
 
