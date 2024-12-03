@@ -30,6 +30,7 @@ color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
 
 :root {
   --CrystalWhite: #ffffff;
+  --GreyWhite: #eeeeee;
   --BabyBlue: #e7f2f8;
   --Aquamarine: #74bdcb;
   --Salmon: #ffa384;
@@ -43,6 +44,8 @@ color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
   /* ----COLORS----- */
   --Black: #000000;
   --LightBlack: #0d0d0d;
+  --LightGrey: #767676;
+  --LightColorGrey: #555555;
   --DarkGrey: #333333;
   --VreyDarkGrey: #1a1a1a;
   --PecockBlue: #183c43;
@@ -308,7 +311,7 @@ form .form-icon {
 form .field input,
 form .message textarea {
   border: 1px solid var(--DarkGrey);
-  background: var(--Freesia);
+  background: var(--GreyWhite);
 }
 
 .field input::placeholder,
@@ -342,6 +345,52 @@ form .message textarea {
 
 /* ------------------------ */
 
-/* FOOTER COMPONENTS CSS-FILE */
+/* ************************* */
+/* FOOTER */
+/* ************************* */
+/* -----SOCIAL-LINK-FOR-FOOTER----- */
+.foot-container .foot-box .my-link-list span:hover {
+  background-color: var(--GreyWhite);
+}
+
+.foot-container .foot-box .social-icon {
+  filter: invert(0.5);
+}
+
+.foot-container .foot-box .social-icon:hover {
+  filter: invert(0);
+}
+
+/* -----FOOTER-COLORS----- */
+
+.footer {
+  border-top: 1px dotted var(--LightGrey);
+  background: var(--GreyWhite);
+}
+
+.foot-box,
+.foot-box a {
+  color: var(--LightColorGrey);
+}
+
+.foot-nav-link:hover {
+  color: var(--LightBlack);
+}
+
+.foot-cont-link:hover {
+  color: var(--LightBlack);
+}
+
+.foot-icon {
+  fill: var(--LightGrey);
+}
+
+.foot-nav-link:hover .foot-icon {
+  fill: var(--LightBlack);
+}
+
+.foot-cont-link:hover .foot-icon {
+  fill: var(--LightBlack);
+}
 
 /* ------------------------ */

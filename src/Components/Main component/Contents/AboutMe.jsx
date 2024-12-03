@@ -31,23 +31,22 @@ const AboutMe = () => {
 
             <div className="box-container">
               <p className="email">
-                <a
-                  href="mailto:arunavsingh999@gmail.com"
-                  className="contact-link"
-                >
+                <a href={myData[0].eHref} className="contact-link">
                   <span>E-mail: </span>
                   <span>{myData[0].email}</span>
                 </a>
               </p>
               <p className="phone">
-                <a href="tel:7008122921" className="contact-link">
+                <a href={myData[0].pHref} className="contact-link">
                   <span>Phone: </span>
                   <span>{myData[0].phone}</span>
                 </a>
               </p>
               <p className="place">
-                <span>Place: </span>
-                <span>{myData[0].place}</span>
+                <a href={myData[0].lHref} target="blank" className="contact-link">
+                  <span>Place: </span>
+                  <span>{myData[0].location}</span>
+                </a>
               </p>
             </div>
 

@@ -1,88 +1,91 @@
+/* ************************* */
+/* FOOTER */
+/* ************************* */
 .footer {
-  min-height: auto;
-  padding-top: 0;
-  background: rgb(0, 1, 43);
+  padding: 4.8rem 0;
 }
 
 .foot-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  font-family: "Sen", sans-serif;
+  width: 120rem;
+  margin: 0 auto;
 }
 
 .foot-container .foot-box {
-  flex: 1 1 25rem;
-  margin: 2.5rem;
+  flex: 1 1 24rem;
+  margin: 2.4rem;
+}
+
+.foot-container .foot-box:last-child {
+  margin-left: 0;
+}
+.foot-container .foot-box:nth-child(2) {
+  margin-right: 0;
 }
 
 .foot-box h3 {
-  font-size: 2.5rem;
-  color: #fff;
   padding-bottom: 1rem;
-  font-weight: normal;
+  font-size: 2.4rem;
+  font-weight: 600;
 }
 
 .foot-box p {
-  font-size: 1.5rem;
-  color: #ccc;
-  padding: 0.7rem 0;
+  font-size: 1.4rem;
+  padding: 0.8rem 0;
   text-transform: none;
 }
 
-/* For svg item */
-.foot-box i {
-  padding-right: 1rem;
-  color: #ffae00;
-}
-
 .foot-box a {
-  font-size: 1.5rem;
-  color: rgb(238, 238, 238);
-  padding: 0.3rem 0;
-  display: block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0.4rem 0;
+  transition: all 0.3s ease-in-out;
 }
 
-.foot-box a:hover {
-  color: #ffae00;
-}
-
-.foot-box .share {
+/* ************************* */
+/* FOOT-NAV-LINK */
+/* ************************* */
+.foot-nav-list {
+  list-style: none;
   display: flex;
-  flex-wrap: wrap;
-  padding: 1rem 0;
+  flex-direction: column;
 }
 
-.share a {
-  height: 4rem;
-  width: 4rem;
-  padding: 1rem;
-  text-align: center;
-  border-radius: 5rem;
-  font-size: 1.7rem;
-  margin-right: 1rem;
-  transition: 0.2s;
-  background: rgb(230, 230, 230);
-  color: #02094b;
-  border: none;
+.foot-nav-link {
+  width: 40%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
 }
 
-.share a:hover {
-  background: transparent;
-  transform: scale(0.98);
-  border: 0.1rem solid rgb(180, 178, 178);
-  color: #ffae00;
+.foot-nav-link:hover {
+  font-size: 1.6rem;
 }
 
-.footer .credit {
-  padding: 1rem 0 4rem 0;
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  color: #fff;
-  border-top: 0.1rem solid #fff3;
+.foot-icon {
+  height: 2.4rem;
+  width: 1.8rem;
+  transition: all 0.3s ease-in-out;
 }
 
-.credit a {
-  color: #ffae00;
+/* ************************* */
+/* FOOT-CONT-LINK */
+/* ************************* */
+.foot-cont-list {
+  list-style: none;
+}
+
+.foot-cont-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.foot-cont-link:hover {
+  font-size: 1.6rem;
 }

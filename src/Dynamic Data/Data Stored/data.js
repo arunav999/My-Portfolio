@@ -65,8 +65,12 @@ const myData = [
     description:
       "Aspiring Web Developer and Web Designer with a focus on front-end development. Proficient in HTML, CSS, JavaScript, and ReactJS at a beginner level, with a passion for creating responsive and user-friendly web interfaces. Dedicated to learning and improving in the field of web development.",
     email: "arunavsingh999@gmail.com",
+    eHref: "mailto:arunavsingh999@gmail.com",
     phone: "+91-7008122921",
-    place: "Bengaluru, India - 560048",
+    pHref: "tel:7008122921",
+    location: "Bengaluru, India - 560048",
+    lHref:
+      "https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9537902,77.3012781,10z/data=!3m1!4b1!4m6!3m5!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!8m2!3d12.9715987!4d77.5945627!16zL20vMDljMTc?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D",
   },
 ];
 
