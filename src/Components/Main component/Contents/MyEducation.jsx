@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./MyEducation-module.css";
+import "./MyEducation.css";
 
 import { DynamicLoadingEducation } from "../../../Dynamic Data/DynamicLoading";
 

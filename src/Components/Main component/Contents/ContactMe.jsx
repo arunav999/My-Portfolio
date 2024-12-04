@@ -1,9 +1,125 @@
-import React from "react";
+import React, { useState } from "react";
 
-import "./ContactMe-module.css";
+import "./ContactMe.css";
 import CallMe from "../../../My Memoji/Without background/CallMe-NB.png";
 
 const ContactMe = () => {
+  const [data, setData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const [errors, setErrors] = useState({});
+
+  const validate = () => {
+    const errors = {};
+
+    if (!data.name.trim()) {
+      errors.name = "Name is required";
+    } else if (data.name.length < 3) {
+      errors.name = "Name must be at-least 3 characters long";
+    }
+
+    if (!data.phone) {
+      errors.phone = "Phone number is required";
+    } else if (
+      !data.phone.startsWith("6") &&
+      !data.phone.startsWith("7") &&
+      !data.phone.startsWith("8") &&
+      !data.phone.startsWith("9")
+    ) {
+      errors.phone = "Phone number must start with 6, 7, 8, or 9";
+    }
+
+    if (!data.email) {
+      errors.email = "E-mail is required";
+    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(data.email)) {
+      errors.email = "Invalid e-mail address";
+    }
+
+    if (!data.message.trim()) {
+      errors.message = "Message is required";
+    } else if (data.message.length < 10) {
+      errors.message = "Message must be at least 10 characters long";
+    }
+
+    return errors;
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    setData({ ...data, [name]: value });
+
+    const newErrors = { ...errors };
+
+    if (name === "name" && (!value.trim() || value.length < 3)) {
+      newErrors.name = "Name must be at least 3 characters long";
+    } else if (
+      name === "phone" &&
+      (!/^\d{10}$/.test(value) || !/^[6-9]/.test(value))
+    ) {
+      newErrors.phone = "Phone must start with 6-9 and be exactly 10 digits";
+    } else if (
+      name === "email" &&
+      value &&
+      !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(value)
+    ) {
+      newErrors.email = "Invalid e-mail address";
+    } else if (name === "message" && value.trim().length < 10) {
+      newErrors.message = "Message must be at least 10 characters long";
+    } else {
+      delete newErrors[name];
+    }
+
+    setErrors(newErrors);
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const validationErrors = validate();
+    setErrors(validationErrors);
+
+    if (Object.keys(validationErrors).length > 0) {
+      return;
+    }
+
+    try {
+      const url =
+        "https://v1.nocodeapi.com/slyterkit/google_sheets/gzCkzgVfPicQcksq?tabId=Sheet1";
+      const response = await fetch(url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify([
+          [
+            data.name,
+            data.email,
+            data.phone,
+            data.message,
+            new Date().toLocaleString(),
+          ],
+        ]),
+      });
+
+      await response.json();
+      setData({
+        ...data,
+        name: "",
+        email: "",
+        phone: "",
+        message: "",
+      });
+      setErrors({});
+    } catch (error) {
+      console.log("Submission failed:", error);
+    }
+  };
+
   return (
     <section className="contactSection" id="Contact">
       <div className="sec-container no-gap">
@@ -25,10 +141,19 @@ const ContactMe = () => {
               <img src={CallMe} alt="Call me memoji" />
             </div>
 
-            <form action="">
+            <form onSubmit={handleSubmit}>
               <div className="form-group">
                 <div className="field">
-                  <input type="text" placeholder="Name" />
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    name="name"
+                    value={data.name}
+                    onChange={handleChange}
+                    required
+                    autoComplete="off"
+                  />
+                  {errors.name && <span className="error">{errors.name}</span>}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="form-icon"
@@ -38,7 +163,18 @@ const ContactMe = () => {
                   </svg>
                 </div>
                 <div className="field">
-                  <input type="text" placeholder="E-mail" />
+                  <input
+                    type="text"
+                    placeholder="E-mail"
+                    name="email"
+                    value={data.email}
+                    onChange={handleChange}
+                    required
+                    autoComplete="off"
+                  />
+                  {errors.email && (
+                    <span className="error">{errors.email}</span>
+                  )}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="form-icon"
@@ -48,7 +184,18 @@ const ContactMe = () => {
                   </svg>
                 </div>
                 <div className="field">
-                  <input type="text" placeholder="Phone" />
+                  <input
+                    type="number"
+                    placeholder="Phone"
+                    name="phone"
+                    value={data.phone}
+                    onChange={handleChange}
+                    required
+                    autoComplete="off"
+                  />
+                  {errors.phone && (
+                    <span className="error">{errors.phone}</span>
+                  )}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="form-icon"
@@ -58,7 +205,16 @@ const ContactMe = () => {
                   </svg>
                 </div>
                 <div className="message">
-                  <textarea name="" id="" placeholder="Message"></textarea>
+                  <textarea
+                    name="message"
+                    value={data.message}
+                    onChange={handleChange}
+                    required
+                    placeholder="Message"
+                  ></textarea>
+                  {errors.message && (
+                    <span className="error">{errors.message}</span>
+                  )}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="form-icon"

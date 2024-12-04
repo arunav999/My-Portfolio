@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Projects-module.css";
+import "./Projects.css";
 import { DynamicLoadingProjects } from "../../../Dynamic Data/DynamicLoading";
 
 const Projects = () => {
