@@ -46,6 +46,7 @@ form .form-group {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 1.2rem;
 }
 
 .form-group .field {
@@ -152,4 +153,17 @@ form .button-area {
 
 .button-area button:hover .form-icon {
   left: 8px;
+}
+
+/* ************************* */
+/* ERROR-MESSAGE */
+/* ************************* */
+.error {
+  width: 40rem;
+  font-family: "Sen";
+  font-size: 1.4rem;
+
+  position: absolute;
+  bottom: -20px;
+  left: 12px;
 }

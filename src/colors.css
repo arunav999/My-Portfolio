@@ -168,7 +168,7 @@ background-color: #f1f1f1;
 }
 
 .memoji-item:hover {
-  box-shadow: -4px 1px 37px 4px var(--Freesia);
+  /* box-shadow: -4px 1px 37px 4px var(--Freesia); */
   background-color: var(--Freesia);
 }
 
@@ -178,12 +178,13 @@ background-color: #f1f1f1;
 }
 
 .memoji-working {
-  box-shadow: 0px 0px 18px 4px #19191917;
+  box-shadow: 0px 0px 18px 4px rgba(25, 25, 25, 0.05);
 }
 
 .memoji-working:hover {
   background-color: var(--Freesia);
-  box-shadow: -4px 1px 37px 4px var(--Freesia);
+  /* box-shadow: -4px 1px 37px 4px var(--Freesia); */
+  box-shadow: inset 0px 0px 18px 4px #1919190d;
 }
 
 .content .desc {
@@ -295,6 +296,12 @@ background-color: #f1f1f1;
 /* ------------------------ */
 
 /* CONTACT-ME COMPONENTS CSS-FILE */
+
+/* ERROR-MESSAGE */
+.error {
+  color: #c40639;
+}
+
 .contact-container {
   background: linear-gradient(304deg, var(--Salmon) 0%, var(--Freesia) 100%);
   box-shadow: 0 5px 10px #00000026;
