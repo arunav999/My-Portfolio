@@ -77,9 +77,12 @@ color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
   border-radius: 0px 0px 8px 8px;
 }
 
+#navArea.is-sticky .main-nav-list li a:hover {
+  color: var(--CrystalWhite);
+}
+
 .main-nav-list li a:hover {
-  background-color: var(--Freesia);
-  color: var(--DarkGrey);
+  color: var(--Black);
 }
 
 .main-nav-list li .main-nav-link::before {

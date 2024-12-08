@@ -69,7 +69,7 @@ const myProjectsData = [
     proTag: "OmniFood",
     proAlt: "OmniFood website screenshot",
     proDesc: "Omnifood project built in HTML, CSS and Javascript",
-    proVisit: "https://adorable-dusk-9a2e6d.netlify.app/",
+    proVisit: "https://omnifood-arunav.netlify.app/",
     proCode: "https://github.com/arunav999/OMNI_FOOD-Project",
   },
   {
