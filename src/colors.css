@@ -61,7 +61,9 @@ color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
   color: var(--PeseantBrown);
 }
 
+/* ************************* */
 /* HEADER COMPONENTS CSS-FILE */
+/* ************************* */
 .header {
   color: var(--DarkGrey);
 }
@@ -129,8 +131,9 @@ background-color: #f1f1f1;
 }
  */
 
+/* ************************* */
 /* HERO COMPONENTS CSS-FILE */
-
+/* ************************* */
 .hero-section {
   background-color: var(--BabyBlue);
 }
@@ -175,7 +178,9 @@ background-color: #f1f1f1;
   background-color: var(--Freesia);
 }
 
+/* ************************* */
 /* ABOUT-ME COMPONENTS CSS-FILE */
+/* ************************* */
 .aboutMeSection {
   background-color: var(--CrystalWhite);
 }
@@ -226,7 +231,9 @@ background-color: #f1f1f1;
   box-shadow: 0px 4px 5px 0px var(--BabyBlueTint);
 }
 
+/* ************************* */
 /* SKILLS COMPONENTS CSS-FILE */
+/* ************************* */
 .skillsSection {
   background: linear-gradient(304deg, var(--Salmon) 0%, var(--Freesia) 100%);
 }
@@ -250,33 +257,68 @@ background-color: #f1f1f1;
   filter: brightness(0) invert(1);
 }
 
-/* MY-EDUCATION COMPONENTS CSS-FILE */
+/* ************************* */
+/* MY-EDU COMPONENTS CSS-FILE */
+/* ************************* */
 .eduSection {
   background: var(--BabyBlue);
 }
 
+.edu-contents {
+  border-left: 2px solid #bababa;
+}
+
 .edu-box {
+  border: 1px solid #eaeaea;
+  background-color: var(--CrystalWhite);
+}
+
+.edu-box:hover {
+  box-shadow: 0px 3px 12px 0px #ccccccbf;
+}
+
+.edu-box::before {
+  background-color: var(--PeseantBrown);
+  border: 2px solid var(--BlurWhite);
+}
+
+.edu-box h4 {
+  color: var(--PeseantBrown);
+}
+
+.edu-box h3 {
+  color: var(--VreyDarkGrey);
+}
+
+.edu-box p {
+  color: var(--LightColorGrey);
+}
+
+.edu-container .edu-contents .edu-box .location {
+  color: var(--LightGrey);
+}
+
+/* .edu-box {
   background: var(--CrystalWhite);
   color: var(--PecockBlue);
   border-radius: 1rem;
   box-shadow: 1px 1px 5px 2px #0000000d;
   transition: all 0.3s ease-in-out;
-}
+} */
 
-.edu-box:hover {
+/* .edu-box:hover {
   box-shadow: 5px 5px 10px 5px #0000001a;
-}
+} */
 
-/* ------------------------ */
-
-/* PROJECTS-MADE COMPONENTS CSS-FILE */
+/* ************************* */
+/* PROJECTS COMPONENTS CSS-FILE */
+/* ************************* */
 .proSection {
   background: linear-gradient(304deg, var(--Salmon) 0%, var(--Freesia) 100%);
 }
 
 .box-content {
   background: var(--BlurWhite);
-  /* background: var(--CrystalWhite); */
 }
 
 .box-content .tag {
@@ -296,9 +338,9 @@ background-color: #f1f1f1;
   fill: var(--LightBlack);
 }
 
-/* ------------------------ */
-
-/* CONTACT-ME COMPONENTS CSS-FILE */
+/* ************************* */
+/* CONTACT COMPONENTS CSS-FILE */
+/* ************************* */
 
 /* ERROR-MESSAGE */
 .error {
@@ -356,7 +398,7 @@ form .message textarea {
 /* ------------------------ */
 
 /* ************************* */
-/* FOOTER */
+/* FOOTER COMPONENTS CSS-FILE */
 /* ************************* */
 /* -----SOCIAL-LINK-FOR-FOOTER----- */
 .foot-container .foot-box .my-link-list span:hover {
@@ -402,5 +444,3 @@ form .message textarea {
 .foot-cont-link:hover .foot-icon {
   fill: var(--LightBlack);
 }
-
-/* ------------------------ */

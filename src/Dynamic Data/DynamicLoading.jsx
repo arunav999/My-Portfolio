@@ -26,24 +26,21 @@ const DynamicLoading = () => {
   );
 };
 
-const DynamicLoadingEducation = () => {
+const DynamicEducationTimeline = () => {
   return (
     <div className="edu-container">
-      {myEducationData.map((edu, index) => (
-        <div className="edu-box" key={index}>
-          <div className="edu-img">
-            <img src={edu.logo} alt={edu.logoAlt} />
-          </div>
-          <div className="edu-content">
+      <div className="edu-contents">
+        {myEducationData.map((edu, index) => (
+          <div className="edu-box" key={index}>
+            <h4>{edu.year}</h4>
             <h3>{edu.instituteName}</h3>
-            <p>{edu.stream}</p>
-            <h4>
-              {edu.year} | {edu.status}
-            </h4>
-            <p>{edu.location}</p>
+            <p className="stream">{edu.stream}</p>
+            <p className="location">{edu.location}</p>
+            <br />
+            <p>{edu.description}</p>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
@@ -91,4 +88,4 @@ const DynamicLoadingProjects = () => {
 };
 
 export default DynamicLoading;
-export { DynamicLoadingEducation, DynamicLoadingProjects };
+export { DynamicEducationTimeline, DynamicLoadingProjects };

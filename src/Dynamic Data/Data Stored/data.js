@@ -6,10 +6,9 @@ import NextIcon from "../../logo/tech-logo/nextjs-icon.png";
 import GithubIcon from "../../logo/tech-logo/github-icon.png";
 import GitIcon from "../../logo/tech-logo/git_VCS-icon.png";
 import NetifyIcon from "../../logo/tech-logo/netify-icon.png";
-import SathyabamaLogo from "../../img/SUlogo.png";
-import ChaitanyaLogo from "../../img/Sri-Ch.png";
-import VikashLogo from "../../img/Vikash.png";
 import OmniSS from "../../img/Projects Screenshots/Omni-ss.png";
+import YTcloneSS from "../../img/Projects Screenshots/YT-Clone-ss.png";
+import LoginSS from "../../img/Projects Screenshots/Login-Form-ss.png";
 
 /*-------------------------------------- */
 /*-------------------------------------- */
@@ -34,31 +33,31 @@ const myData = [
 // MY-EDUCATION-DATA
 const myEducationData = [
   {
-    instituteName: "Sathyabma University",
-    logo: SathyabamaLogo,
-    logoAlt: "Sathyabama University Logo",
+    instituteName: "Sathyabma Instiute of Science and Technology",
     location: "Chennai, TN",
     stream: "B.E in Computer Science Engineering",
     year: "2018-2022",
     status: "Completed",
+    description:
+      "Completed B.E. in Computer Science from Sathyabhama University in 2022. My final year project focused on Sign Language Recognition using Machine Learning in Python. It was an independent project that deepened my interest in innovative technologies.",
   },
   {
     instituteName: "Sri Chaitanya Techno School | CBSE",
-    logo: ChaitanyaLogo,
-    logoAlt: "Sri Chaitanya Logo",
     location: "Visakhapatnam, AP",
     stream: "PMCE-IP",
     year: "2015-2017",
     status: "Completed",
+    description:
+      "Completed 12th grade from Sri Chaitanya, specializing in PCME-IP. I gained a solid understanding of foundational subjects and honed my analytical skills. This stage was instrumental in shaping my interest in technology and problem-solving.",
   },
   {
     instituteName: "Vikash Residential School | CBSE",
-    logo: VikashLogo,
-    logoAlt: "Vikash School Logo",
     location: "Bargarh, OD",
     stream: "Science",
     year: "2011-2015",
     status: "Completed",
+    description:
+      "Completed 10th grade from Vikash with a strong academic record. My learning here laid the groundwork for advanced studies, sparking my curiosity in mathematics and science. These formative years encouraged my pursuit of engineering.",
   },
 ];
 
@@ -73,28 +72,21 @@ const myProjectsData = [
     proCode: "https://github.com/arunav999/OMNI_FOOD-Project",
   },
   {
-    proImg: OmniSS,
-    proAlt: "OmniFood website screenshot",
-    proTag: "OmniFood",
-    proDesc: "Omnifood project built in HTML, CSS and Javascript",
-    proVisit: "https://adorable-dusk-9a2e6d.netlify.app/",
-    proCode: "https://github.com/arunav999/OMNI_FOOD-Project",
+    proImg: YTcloneSS,
+    proAlt: "Youtube Clone website screenshot",
+    proTag: "Youtube Clone",
+    proDesc: "Youtube Clone project built in HTML and CSS",
+    proVisit: "https://yt-clone-arunav.netlify.app/",
+    proCode: "https://github.com/arunav999/Youtube-Clone",
   },
   {
-    proImg: OmniSS,
-    proAlt: "OmniFood website screenshot",
-    proTag: "OmniFood",
-    proDesc: "Omnifood project built in HTML, CSS and Javascript",
-    proVisit: "https://adorable-dusk-9a2e6d.netlify.app/",
-    proCode: "https://github.com/arunav999/OMNI_FOOD-Project",
-  },
-  {
-    proImg: OmniSS,
-    proAlt: "OmniFood website screenshot",
-    proTag: "OmniFood",
-    proDesc: "Omnifood project built in HTML, CSS and Javascript",
-    proVisit: "https://adorable-dusk-9a2e6d.netlify.app/",
-    proCode: "https://github.com/arunav999/OMNI_FOOD-Project",
+    proImg: LoginSS,
+    proAlt: "Login form screenshot",
+    proTag: "Login form",
+    proDesc:
+      "It's a basic login form built using HTML and CSS with a video background.",
+    proVisit: "https://login-form-arunav.netlify.app/",
+    proCode: "https://github.com/arunav999/Login-form-basic",
   },
 ];
 
