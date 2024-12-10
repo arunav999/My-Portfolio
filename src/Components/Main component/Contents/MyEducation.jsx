@@ -25,45 +25,6 @@ const MyEducation = () => {
         </p>
 
         <DynamicEducationTimeline />
-        {/* <div className="Econtainer">
-          <div className="Econtents">
-            <div className="Ebox">
-              <h4>2018-2022</h4>
-              <h3>Sathyabma</h3>
-              <p>B.E in CSE</p>
-              <p className="location">Chennai, TN</p>
-              <p>
-                Completed B.E. in Computer Science from Sathyabhama University
-                in 2022. My final year project focused on Sign Language
-                Recognition using Machine Learning in Python. It was an
-                independent project that deepened my interest in innovative
-                technologies.
-              </p>
-            </div>
-            <div className="Ebox">
-              <h4>2015-2017</h4>
-              <h3>Chaitanya</h3>
-              <p>
-                Completed 12th grade from [Your School Name], specializing in
-                [Stream, e.g., Science/Commerce/Arts]. I gained a solid
-                understanding of foundational subjects and honed my analytical
-                skills. This stage was instrumental in shaping my interest in
-                technology and problem-solving.
-              </p>
-            </div>
-            <div className="Ebox">
-              <h4>2011-2015</h4>
-              <h3>School</h3>
-              <p>
-                Completed 10th grade from [Your School Name] with a strong
-                academic record. My learning here laid the groundwork for
-                advanced studies, sparking my curiosity in mathematics and
-                science. These formative years encouraged my pursuit of
-                engineering.
-              </p>
-            </div>
-          </div>
-        </div> */}
       </div>
     </section>
   );
