@@ -34,7 +34,9 @@
     width: 90rem;
   }
 
+  /* ************************* */
   /* HERO-SECTION */
+  /* ************************* */
   .hero-section {
     height: 120vh;
     grid-template-columns: 1fr;
@@ -186,7 +188,9 @@
   }
   /* ------------------- */
 
+  /* ************************* */
   /* ABOUT_ME-SECTION */
+  /* ************************* */
   .content-gap{
     gap: 0;
   }
@@ -225,8 +229,18 @@
     bottom: -6rem;
   }
 
+  /* ************************* */
+  /* SKILLS-SECTION */
+  /* ************************* */
+  .skills-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.8rem;
+  }
 
+
+  /* ************************* */
   /* FOOTER-SECTION */
+  /* ************************* */
   .foot-container {
     width: 90rem;
   }
