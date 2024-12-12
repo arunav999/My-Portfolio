@@ -50,7 +50,7 @@ form .form-group {
 }
 
 .form-group .field {
-  height: 50px;
+  height: 5rem;
   display: flex;
   position: relative;
   margin: 1rem;
@@ -68,8 +68,8 @@ form .form-group {
 form .form-icon {
   position: absolute;
   top: 50%;
-  left: 18px;
-  font-size: 17px;
+  left: 1.8rem;
+  font-size: 1.6rem;
   pointer-events: none;
   transform: translateY(-50%);
 }
@@ -82,15 +82,15 @@ form .message textarea {
   width: 100%;
   height: 100%;
   outline: none;
-  padding: 0 16px 0 48px;
-  font-size: 16px;
+  padding: 0 1.6rem 0 4.8rem;
+  font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
-  border-radius: 5px;
+  border-radius: 0.6rem;
 }
 
 .field input:focus,
 .message textarea:focus {
-  padding-left: 47px;
+  padding-left: 4.8rem;
 }
 
 form .message {
@@ -100,21 +100,21 @@ form .message {
 }
 
 form .message .form-icon {
-  top: 25px;
-  font-size: 20px;
-  left: 15px;
+  top: 2.4rem;
+  font-size: 2rem;
+  left: 1.6rem;
 }
 
 form .message textarea {
-  min-height: 130px;
-  max-height: 230px;
+  min-height: 13rem;
+  max-height: 23rem;
   max-width: 100%;
   min-width: 100%;
-  padding: 12px 20px 0 48px;
+  padding: 1.2rem 2rem 0 4.8rem;
 }
 
 form .message textarea::-webkit-scrollbar {
-  width: 0px;
+  width: 0;
 }
 
 /* ************************* */
@@ -131,28 +131,28 @@ form .button-area {
   outline: none;
   font-size: 1.8rem;
   cursor: pointer;
-  border-radius: 5px;
-  padding: 13px 25px;
+  border-radius: 0.4rem;
+  padding: 1.2rem 2.4rem;
   transition: 0.3s ease;
   font-family: "Sen", sans-serif;
 }
 
 .button-area span {
-  font-size: 17px;
+  font-size: 1.6rem;
   padding: 1rem;
   display: none;
 }
 
 .button-area button .form-icon {
   position: relative;
-  top: 6px;
-  left: 2px;
+  top: 0.6rem;
+  left: 0.2rem;
   font-size: 1.5rem;
   transition: 0.3s;
 }
 
 .button-area button:hover .form-icon {
-  left: 8px;
+  left: 0.8rem;
 }
 
 /* ************************* */
@@ -164,6 +164,6 @@ form .button-area {
   font-size: 1.4rem;
 
   position: absolute;
-  bottom: -20px;
-  left: 12px;
+  bottom: -2rem;
+  left: 1.2rem;
 }

@@ -88,12 +88,12 @@
   } */
 
   :root {
-    --bar-width: 60px;
-    --bar-height: 8px;
-    --menu-gap: 6px;
+    --bar-width: 6rem;
+    --bar-height: 0.8rem;
+    --menu-gap: 0.6rem;
     --foreground: #333;
     --background: #fff;
-    --menu-margin: 8px;
+    --menu-margin: 0.8rem;
     --animation-timing: 200ms ease-in-out;
     --menu-height: calc(var(--bar-height) * 3 + var(--menu-gap) * 2);
   }
@@ -120,7 +120,7 @@
     width: var(--bar-width);
     height: var(--bar-height);
     background-color: var(--foreground);
-    border-radius: 99px;
+    border-radius: 9.9rem;
     transform-origin: left center;
     transition: all var(--animation-timing);
   }
@@ -154,7 +154,7 @@
   /* ------------------- */
   .main-nav {
     background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(1rem);
     position: absolute;
     top: 0;
     left: 0;
