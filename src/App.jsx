@@ -6,6 +6,7 @@ import Footer from "./Components/Footer Component/Footer";
 
 import "./index.css";
 import "./colors.css";
+import "./responsive.css";
 
 function App() {
   return (

@@ -1,0 +1,219 @@
+/* ************************* */
+/* 
+  LARGE: 1025px(64.06rem) - 1235px(77.18rem) 
+  (for Small Laptops) 
+*/
+/* ************************* */
+@media (max-width: 77.18rem) {
+  html {
+    font-size: 50.5%;
+  }
+}
+
+/* ************************* */
+/* 
+  MEDIUM: 768px(48rem) - 1024px(64rem) 
+  (for Tablets) 
+*/
+/* ************************* */
+@media (max-width: 64rem) {
+}
+
+/* ************************* */
+/* 
+  SMALL: 481px(30.06rem) - 767px(47.93rem) 
+  (for Tablets) 
+*/
+/* ************************* */
+@media (max-width: 47.93rem) {
+  /* * {
+    border: 1px solid lightcoral;
+  } */
+
+  .sec-container {
+    width: 90rem;
+  }
+
+  /* HERO-SECTION */
+  .hero-section {
+    height: 120vh;
+    grid-template-columns: 1fr;
+    justify-items: stretch;
+    padding-top: 0;
+  }
+
+  .my-info {
+    font-size: 6.8rem;
+    gap: 2.8rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .dynamic {
+    font-size: 3.4rem;
+  }
+
+  .about-me-link {
+    font-size: 3.2rem;
+    width: 30rem;
+  }
+
+  .down-arrow-icon {
+    height: 3.4rem;
+    width: 3.4rem;
+  }
+
+  .social-icon {
+    height: 4.6rem;
+    width: 4.6rem;
+  }
+
+  .my-link-list {
+    gap: 3.8rem;
+  }
+
+  .memoji-item img {
+    height: 55.4rem;
+    width: 55.4rem;
+  }
+  /* ------------------- */
+  /* MOBILE-NAV */
+  /* *************** */
+  /* HAMBURGER-MENU */
+  /* *************** */
+  /* ROOT */
+  /* *::after,
+  *::before {
+    box-sizing: border-box;
+  } */
+
+  :root {
+    --bar-width: 60px;
+    --bar-height: 8px;
+    --menu-gap: 6px;
+    --foreground: #333;
+    --background: #fff;
+    --menu-margin: 8px;
+    --animation-timing: 200ms ease-in-out;
+    --menu-height: calc(var(--bar-height) * 3 + var(--menu-gap) * 2);
+  }
+
+  /* MENU-OPEN */
+  .hamburger-menu {
+    --x-width: calc(var(--menu-height) * 1.41421356237);
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--menu-gap);
+    width: max-content;
+    position: absolute;
+    top: var(--menu-margin);
+    right: var(--menu-margin);
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .hamburger-menu input,
+  .hamburger-menu::before,
+  .hamburger-menu::after {
+    content: "";
+    width: var(--bar-width);
+    height: var(--bar-height);
+    background-color: var(--foreground);
+    border-radius: 99px;
+    transform-origin: left center;
+    transition: all var(--animation-timing);
+  }
+
+  .hamburger-menu input {
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+  }
+
+  /* MENU-CLOSE */
+  .checked input {
+    opacity: 0;
+    width: 0;
+  }
+
+  .checked.hamburger-menu::before {
+    transform: rotate(45deg);
+    width: var(--x-width);
+    translate: 0 calc(var(--bar-height) / -2);
+  }
+
+  .checked.hamburger-menu::after {
+    transform: rotate(-45deg);
+    width: var(--x-width);
+    translate: 0 calc(var(--bar-height) / 2);
+  }
+
+  /* ------------------- */
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: all 0.3s ease-in;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    visibility: none;
+  }
+
+  .nav-open {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    font-size: 3.2rem;
+  }
+
+  .main-nav-list li:hover .main-nav-link.main-nav-link::before {
+    width: 100%;
+  }
+
+  #navArea.is-sticky .main-nav-list {
+    gap: 4.4rem;
+  }
+
+  #navArea.is-sticky .main-nav-list li a:hover {
+    color: #000;
+  }
+  /* ------------------- */
+
+  /* FOOTER-SECTION */
+  .foot-container {
+    width: 90rem;
+  }
+}
+
+/* HEADER-SECTION */
+
+/* HERO-SECTION */
+
+/* ABOUT_ME-SECTION */
+
+/* SKILLS-SECTION */
+
+/* MY_EDUCATION-SECTION */
+
+/* PROJECTS-SECTION */
+
+/* CONTACT_ME-SECTION */
+
+/* FOOTER-SECTION */

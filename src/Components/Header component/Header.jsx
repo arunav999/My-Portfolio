@@ -1,9 +1,23 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
 import "./Header.css";
 
 const Header = () => {
+  const [isChecked, SetIsChecked] = useState(false);
+
+  const toogleMenu = () => {
+    SetIsChecked((prev) => !prev);
+  };
+
+  const handleCloseNav = () => {
+    SetIsChecked(false);
+  };
+
+  const getOffSet = (offSetValue) => {
+    return window.innerWidth <= 767 ? -30 : offSetValue;
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       const navArea = document.getElementById("navArea");
@@ -34,7 +48,11 @@ const Header = () => {
         </Link>
       </div>
 
-      <nav className="main-nav">
+      <label className={`hamburger-menu ${isChecked ? "checked" : ""}`}>
+        <input type="checkbox" onChange={toogleMenu} checked={isChecked} />
+      </label>
+
+      <nav className={`main-nav ${isChecked ? "nav-open" : ""}`}>
         <ul className="main-nav-list">
           <li>
             <Link
@@ -43,8 +61,9 @@ const Header = () => {
               to="About"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={getOffSet(-70)}
               duration={500}
+              onClick={handleCloseNav}
             >
               About
             </Link>
@@ -56,8 +75,9 @@ const Header = () => {
               to="Skills"
               spy={true}
               smooth={true}
-              offset={-65}
+              offset={getOffSet(-65)}
               duration={500}
+              onClick={handleCloseNav}
             >
               Skills
             </Link>
@@ -69,8 +89,9 @@ const Header = () => {
               to="Education"
               spy={true}
               smooth={true}
-              offset={-40}
+              offset={getOffSet(-40)}
               duration={500}
+              onClick={handleCloseNav}
             >
               Education
             </Link>
@@ -82,8 +103,9 @@ const Header = () => {
               to="Projects"
               spy={true}
               smooth={true}
-              offset={-35}
+              offset={getOffSet(-35)}
               duration={500}
+              onClick={handleCloseNav}
             >
               Projects
             </Link>
@@ -95,8 +117,9 @@ const Header = () => {
               to="Contact"
               spy={true}
               smooth={true}
-              offset={-35}
+              offset={getOffSet(-30)}
               duration={500}
+              onClick={handleCloseNav}
             >
               Contact
             </Link>

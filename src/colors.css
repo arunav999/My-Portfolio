@@ -28,6 +28,9 @@ Bg- #efe7bc
 color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
 */
 
+/* ************************* */
+/* ROOT-COLOR-VARs */
+/* ************************* */
 :root {
   --CrystalWhite: #ffffff;
   --GreyWhite: #eeeeee;
@@ -352,10 +355,6 @@ background-color: #f1f1f1;
   box-shadow: 0 5px 10px #00000026;
 }
 
-.contact-content .contact-img {
-  box-shadow: inset 0px 0px 9px 0px #0000001a;
-}
-
 form .form-icon {
   fill: var(--DarkGrey);
 }
@@ -373,7 +372,8 @@ form .message textarea {
 
 .field input:focus,
 .message textarea:focus {
-  border: 2px solid var(--PeseantBrown);
+  /* border: 2px solid var(--PeseantBrown); */
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 .field input:focus ~ .form-icon,
