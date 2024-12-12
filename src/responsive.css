@@ -43,38 +43,28 @@
   }
 
   .my-info {
-    font-size: 6.8rem;
+    font-size: 4.8rem;
     gap: 2.8rem;
     padding-top: 0;
     padding-bottom: 0;
   }
 
   .dynamic {
-    font-size: 3.4rem;
-  }
-
-  .about-me-link {
-    font-size: 3.2rem;
-    width: 30rem;
-  }
-
-  .down-arrow-icon {
-    height: 3.4rem;
-    width: 3.4rem;
+    font-size: 2.8rem;
   }
 
   .social-icon {
-    height: 4.6rem;
-    width: 4.6rem;
+    height: 4.2rem;
+    width: 4.2rem;
   }
 
   .my-link-list {
-    gap: 3.8rem;
+    gap: 3.4rem;
   }
 
   .memoji-item img {
-    height: 55.4rem;
-    width: 55.4rem;
+    height: 52.4rem;
+    width: 52.4rem;
   }
   /* ------------------- */
   /* MOBILE-NAV */
@@ -88,27 +78,27 @@
   } */
 
   :root {
-    --bar-width: 6rem;
-    --bar-height: 0.8rem;
-    --menu-gap: 0.6rem;
+    --bar-width: 4.8rem;
+    --bar-height: 0.6rem;
+    --hamburger-gap: 0.6rem;
     --foreground: #333;
     --background: #fff;
-    --menu-margin: 0.8rem;
+    --hamburger-margin: 1.8rem;
     --animation-timing: 200ms ease-in-out;
-    --menu-height: calc(var(--bar-height) * 3 + var(--menu-gap) * 2);
+    --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
   }
 
   /* MENU-OPEN */
   .hamburger-menu {
-    --x-width: calc(var(--menu-height) * 1.41421356237);
+    --x-width: calc(var(--hamburger-height) * 1.41421356237);
 
     display: flex;
     flex-direction: column;
-    gap: var(--menu-gap);
+    gap: var(--hamburger-gap);
     width: max-content;
     position: absolute;
-    top: var(--menu-margin);
-    right: var(--menu-margin);
+    top: var(--hamburger-margin);
+    right: var(--hamburger-margin);
     z-index: 2;
     cursor: pointer;
   }
@@ -195,6 +185,46 @@
     color: #000;
   }
   /* ------------------- */
+
+  /* ABOUT_ME-SECTION */
+  .content-gap{
+    gap: 0;
+  }
+
+  .aboutMeSection{
+    height: 105vh;
+  }
+
+  .row{
+    grid-template-columns: 1fr;
+    gap: 4.2rem;
+  }
+
+  .memoji-working{
+    height: 35rem;
+    width: 35rem;
+  }
+
+  .content{
+    width: 60rem;
+  }
+
+  .heading-tertiary{
+    font-size: 4.2rem;
+  }
+
+  .content span{
+    font-size: 2.2rem;
+  }
+
+  .content .desc{
+    font-size: 1.6rem;
+  }
+
+  .res-btn {
+    bottom: -6rem;
+  }
+
 
   /* FOOTER-SECTION */
   .foot-container {
