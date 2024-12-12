@@ -237,6 +237,27 @@
     gap: 1.8rem;
   }
 
+  /* ************************* */
+  /* MY_EDUCATION-SECTION */
+  /* ************************* */
+  .pro-container{
+    grid-template-columns: 0.8fr;
+    justify-items: right;
+  }
+
+  .pro-box{
+    height: 35rem;
+    width: 55rem;
+  }
+
+  .box-content .tag{
+    height: 5.5rem;
+  }
+
+  .pro-box:hover .box-content {
+    top: 35%;
+  }
+
 
   /* ************************* */
   /* FOOTER-SECTION */
