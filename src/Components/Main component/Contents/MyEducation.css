@@ -38,7 +38,7 @@
 }
 
 .edu-box:hover {
-  border: 1px solid transparent;
+  border: 0.1rem solid transparent;
 }
 
 .edu-box::before {
