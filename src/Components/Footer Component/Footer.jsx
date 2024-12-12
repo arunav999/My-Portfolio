@@ -17,7 +17,7 @@ const Footer = () => {
             me over socials.
             <br />
             <br />
-            Keep Rising. Connect with me over live chat!
+            Keep Rising.
           </p>
         </div>
 

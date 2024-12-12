@@ -265,6 +265,22 @@
   .foot-container {
     width: 90rem;
   }
+
+  .foot-container .foot-box{
+    flex: 1 1 14rem;
+  }
+
+  .foot-nav-link{
+    width: 50%;
+  }
+
+  .foot-nav-link:hover{
+    font-size: 1.4rem;
+  }
+
+  .foot-cont-link:hover{
+    font-size: 1.4rem;
+  }
 }
 
 /* HEADER-SECTION */
