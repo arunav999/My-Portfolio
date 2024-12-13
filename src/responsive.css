@@ -301,10 +301,10 @@
   /* .eduSection, */
   /* .proSection, */
   /* .contactSection, */
-  .footer {
-    /* max-width: 100%; */
+  /* .footer {
+    max-width: 100%;
     display: none;
-  }
+  } */
 
   .sec-container {
     width: 100%;
@@ -447,7 +447,16 @@
   /* ************************* */
   /* FOOTER-SECTION */
   /* ************************* */
+  .foot-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: baseline;
+  }
 
+  .foot-nav-link{
+    width: 100%;
+  }
 }
 
 /* HEADER-SECTION */
