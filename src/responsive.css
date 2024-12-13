@@ -297,7 +297,7 @@
   /* .hero-section, */
   /* .aboutMeSection, */
   /* .skillsSection, */
-  .eduSection,
+  /* .eduSection, */
   .proSection,
   .contactSection,
   .footer {
@@ -383,6 +383,15 @@
   .contact-link span{
     font-size: 1.6rem;
   }
+
+  /* ************************* */
+  /* MY_EDUCATION-SECTION */
+  /* ************************* */
+
+  .quote {
+    padding: 0 9%;
+  }
+
 
 
   /* .pro-box {
