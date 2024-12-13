@@ -373,7 +373,7 @@ form .message textarea {
 .field input:focus,
 .message textarea:focus {
   /* border: 2px solid var(--PeseantBrown); */
-  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+  box-shadow: 0 0 0 0.6rem rgba(230, 125, 34, 0.5);
 }
 
 .field input:focus ~ .form-icon,

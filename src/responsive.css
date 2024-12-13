@@ -19,19 +19,6 @@
 */
 /* **--**--**--**--**--**--**--** */
 @media (max-width: 64rem) {
-
-  /* .sec-container, */
-  /* .header, */
-  /* .hero-section, */
-  /* .aboutMeSection, */
-  /* .skillsSection, */
-  /* .eduSection, */
-  /* .proSection, */
-  /* .contactSection, */
-  /* .footer {
-    display: none;
-  } */
-
   .sec-container {
     width: 100%;
   }
@@ -138,18 +125,18 @@
   /* ************************* */
   /* FOOTER-SECTION */
   /* ************************* */
-  .foot-container{
+  .foot-container {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     justify-items: baseline;
   }
 
-  .foot-nav-link{
+  .foot-nav-link {
     width: 100%;
   }
 
-  .foot-box h3{
+  .foot-box h3 {
     font-size: 3.2rem;
   }
 
@@ -167,8 +154,18 @@
 */
 /* **--**--**--**--**--**--**--** */
 @media (max-width: 47.93rem) {
-  /* * {
-    border: 1px solid lightcoral;
+
+  /* .sec-container, */
+  /* .header, */
+  /* .hero-section, */
+  /* .aboutMeSection, */
+  /* .skillsSection, */
+  /* .eduSection, */
+  /* .proSection, */
+  /* .contactSection, */
+  /* .footer 
+  {
+    display: none;
   } */
 
   .sec-container {
