@@ -1,0 +1,91 @@
+/* ************************* */
+/* FOOTER */
+/* ************************* */
+.footer {
+  padding: 4.8rem 0;
+}
+
+.foot-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Rubik", sans-serif;
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.foot-container .foot-box {
+  flex: 1 1 24rem;
+  margin: 2.4rem;
+}
+
+.foot-container .foot-box:last-child {
+  margin-left: 0;
+}
+.foot-container .foot-box:nth-child(2) {
+  margin-right: 0;
+}
+
+.foot-box h3 {
+  padding-bottom: 1rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.foot-box p {
+  font-size: 1.4rem;
+  padding: 0.8rem 0;
+  text-transform: none;
+}
+
+.foot-box a {
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 0.4rem 0;
+  transition: all 0.3s ease-in-out;
+}
+
+/* ************************* */
+/* FOOT-NAV-LINK */
+/* ************************* */
+.foot-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.foot-nav-link {
+  width: 40%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.foot-nav-link:hover {
+  font-size: 1.6rem;
+}
+
+.foot-icon {
+  height: 2.4rem;
+  width: 1.8rem;
+  transition: all 0.3s ease-in-out;
+}
+
+/* ************************* */
+/* FOOT-CONT-LINK */
+/* ************************* */
+.foot-cont-list {
+  list-style: none;
+}
+
+.foot-cont-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.foot-cont-link:hover {
+  font-size: 1.6rem;
+}
