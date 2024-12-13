@@ -34,7 +34,7 @@ const Footer = () => {
                 to="Home"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={1500}
                 offset={-100}
               >
                 <svg
@@ -53,7 +53,7 @@ const Footer = () => {
                 to="About"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={1500}
                 offset={getOffSet(-70)}
               >
                 <svg
@@ -72,7 +72,7 @@ const Footer = () => {
                 to="Skills"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={1500}
                 offset={getOffSet(-65)}
               >
                 <svg
@@ -91,7 +91,7 @@ const Footer = () => {
                 to="Education"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={1500}
                 offset={getOffSet(-40)}
               >
                 <svg
@@ -110,7 +110,7 @@ const Footer = () => {
                 to="Projects"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={1500}
                 offset={getOffSet(-35)}
               >
                 <svg
@@ -129,7 +129,7 @@ const Footer = () => {
                 to="Contact"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={1500}
                 offset={getOffSet(-30)}
               >
                 <svg
