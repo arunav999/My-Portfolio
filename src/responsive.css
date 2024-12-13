@@ -9,6 +9,7 @@
     font-size: 50.5%;
   }
 }
+
 /* **--**--**--**--**--**--**--** */
 
 /* ************************* */
@@ -18,25 +19,31 @@
 */
 /* **--**--**--**--**--**--**--** */
 @media (max-width: 64rem) {
-  .sec-container,
+
+  /* .sec-container, */
   /* .header, */
   /* .hero-section, */
-  .aboutMeSection,
-  .skillsSection,
+  /* .aboutMeSection, */
+  /* .skillsSection, */
   .eduSection,
   .proSection,
   .contactSection,
   .footer {
     display: none;
   }
+
+  .sec-container {
+    width: 100%;
+  }
+
   /* ************************* */
   /* HEADER-SECTION */
   /* ************************* */
-  .main-nav-list{
+  .main-nav-list {
     gap: 1.4rem;
   }
 
-  #navArea.is-sticky .main-nav-list{
+  #navArea.is-sticky .main-nav-list {
     gap: 0.8rem;
   }
 
@@ -46,12 +53,45 @@
   .my-info {
     font-size: 4.2rem;
   }
-  
+
   .memoji img {
     height: 35.4rem;
     width: 35.4rem;
   }
+
+  /* ************************* */
+  /* ABOUT_ME-SECTION */
+  /* ************************* */
+  .aboutMeSection{
+    height: 65vh;
+  }
+  
+  .row{
+    padding: 0 5%;
+  }
+
+  .memoji-img{
+    padding: 0;
+  }
+
+  .memoji-working{
+    height: 34rem;
+    width: 34rem;
+  }
+
+  .heading-tertiary{
+    font-size: 3.2rem;
+  }
+
+  .content span {
+    font-size: 1.6rem;
+  }
+
+  .res-btn{
+    bottom: -2.6rem;
+  }
 }
+
 /* **--**--**--**--**--**--**--** */
 
 /* ************************* */
@@ -320,6 +360,7 @@
     font-size: 1.4rem;
   }
 }
+
 /* **--**--**--**--**--**--**--** */
 
 /* ************************* */
@@ -481,4 +522,5 @@
     width: 100%;
   }
 }
+
 /* **--**--**--**--**--**--**--** */
