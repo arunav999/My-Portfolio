@@ -8,6 +8,35 @@
   html {
     font-size: 50.5%;
   }
+
+  /* ************************* */
+  /* CONTACT-SECTION */
+  /* ************************* */
+  .contact-container {
+    padding: 2.6rem 5%;
+    max-width: 85rem;
+  }
+
+  .contact-content {
+    padding: 0rem 0rem;
+  }
+
+  .contact-container .contact-img {
+    margin: 0;
+  }
+
+  .contact-img img {
+    width: 30.4rem;
+    height: 30.4rem;
+  }
+
+  .contact-content form {
+    width: 50%;
+  }
+
+  .button-area button {
+    margin-top: 2rem;
+  }
 }
 
 /* **--**--**--**--**--**--**--** */
@@ -385,7 +414,6 @@
     top: 35%;
   }
 
-
   /* ************************* */
   /* FOOTER-SECTION */
   /* ************************* */
@@ -425,6 +453,13 @@
 
   .heading-secondary {
     font-size: 4rem;
+  }
+
+  /* ************************* */
+  /* HEADER-SECTION */
+  /* ************************* */
+  .main-nav-list {
+    gap: 4.4rem;
   }
 
   /* ************************* */

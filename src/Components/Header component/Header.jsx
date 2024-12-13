@@ -54,7 +54,7 @@ const Header = () => {
           spy={true}
           smooth={true}
           offset={-100}
-          duration={500}
+          duration={1500}
         >
           Arunav
         </Link>
@@ -74,7 +74,7 @@ const Header = () => {
               spy={true}
               smooth={true}
               offset={getOffSet(-70)}
-              duration={500}
+              duration={1500}
               onClick={handleCloseNav}
             >
               About
@@ -88,7 +88,7 @@ const Header = () => {
               spy={true}
               smooth={true}
               offset={getOffSet(-65)}
-              duration={500}
+              duration={1500}
               onClick={handleCloseNav}
             >
               Skills
@@ -102,7 +102,7 @@ const Header = () => {
               spy={true}
               smooth={true}
               offset={getOffSet(-40)}
-              duration={500}
+              duration={1500}
               onClick={handleCloseNav}
             >
               Education
@@ -116,7 +116,7 @@ const Header = () => {
               spy={true}
               smooth={true}
               offset={getOffSet(-35)}
-              duration={500}
+              duration={1500}
               onClick={handleCloseNav}
             >
               Projects
@@ -130,7 +130,7 @@ const Header = () => {
               spy={true}
               smooth={true}
               offset={getOffSet(-30)}
-              duration={500}
+              duration={1500}
               onClick={handleCloseNav}
             >
               Contact
