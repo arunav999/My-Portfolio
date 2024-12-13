@@ -6,6 +6,10 @@ import { myData } from "../../Dynamic Data/Data Stored/data";
 import DynamicSocial from "../../Dynamic Data/DynamicSocial";
 
 const Footer = () => {
+  const getOffSet = (offSetValue)=>{
+    return window.innerWidth <= 767 ? -30 : offSetValue;
+  }
+  
   return (
     <footer className="footer">
       <div className="foot-container">
@@ -31,6 +35,7 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
+                offset={-100}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -49,6 +54,7 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
+                offset={getOffSet(-70)}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -67,6 +73,7 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
+                offset={getOffSet(-65)}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -85,6 +92,7 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
+                offset={getOffSet(-40)}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -103,6 +111,7 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
+                offset={getOffSet(-35)}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -121,6 +130,7 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
+                offset={getOffSet(-30)}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -16,12 +16,11 @@
   (for Tablets) 
 */
 /* ************************* */
-@media (max-width: 64rem) {
-}
+@media (max-width: 64rem) {}
 
 /* ************************* */
 /* 
-  SMALL: 481px(30.06rem) - 767px(47.93rem) 
+  SMALL: 494px(30.875rem) - 767px(47.93rem) 
   (for Tablets) 
 */
 /* ************************* */
@@ -68,6 +67,7 @@
     height: 52.4rem;
     width: 52.4rem;
   }
+
   /* ------------------- */
   /* MOBILE-NAV */
   /* *************** */
@@ -186,42 +186,43 @@
   #navArea.is-sticky .main-nav-list li a:hover {
     color: #000;
   }
+
   /* ------------------- */
 
   /* ************************* */
   /* ABOUT_ME-SECTION */
   /* ************************* */
-  .content-gap{
+  .content-gap {
     gap: 0;
   }
 
-  .aboutMeSection{
+  .aboutMeSection {
     height: 105vh;
   }
 
-  .row{
+  .row {
     grid-template-columns: 1fr;
     gap: 4.2rem;
   }
 
-  .memoji-working{
+  .memoji-working {
     height: 35rem;
     width: 35rem;
   }
 
-  .content{
+  .content {
     width: 60rem;
   }
 
-  .heading-tertiary{
+  .heading-tertiary {
     font-size: 4.2rem;
   }
 
-  .content span{
+  .content span {
     font-size: 2.2rem;
   }
 
-  .content .desc{
+  .content .desc {
     font-size: 1.6rem;
   }
 
@@ -232,7 +233,7 @@
   /* ************************* */
   /* SKILLS-SECTION */
   /* ************************* */
-  .skills-container{
+  .skills-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.8rem;
   }
@@ -240,17 +241,17 @@
   /* ************************* */
   /* MY_EDUCATION-SECTION */
   /* ************************* */
-  .pro-container{
+  .pro-container {
     grid-template-columns: 0.8fr;
     justify-items: right;
   }
 
-  .pro-box{
+  .pro-box {
     height: 35rem;
     width: 55rem;
   }
 
-  .box-content .tag{
+  .box-content .tag {
     height: 5.5rem;
   }
 
@@ -266,21 +267,117 @@
     width: 90rem;
   }
 
-  .foot-container .foot-box{
+  .foot-container .foot-box {
     flex: 1 1 14rem;
   }
 
-  .foot-nav-link{
+  .foot-nav-link {
     width: 50%;
   }
 
-  .foot-nav-link:hover{
+  .foot-nav-link:hover {
     font-size: 1.4rem;
   }
 
-  .foot-cont-link:hover{
+  .foot-cont-link:hover {
     font-size: 1.4rem;
   }
+}
+
+/* ************************* */
+/* 
+  EXTRA-SMALL: 320px(20rem) - 492px(30.75rem) 
+  (for Mobiles) 
+*/
+/* ************************* */
+@media (max-width: 30.75rem) {
+
+  .sec-container,
+  /* .header, */
+  .hero-section,
+  .aboutMeSection,
+  .skillsSection,
+  .eduSection,
+  .proSection,
+  .contactSection,
+  .footer {
+    /* max-width: 100%; */
+    display: none;
+  }
+
+  /* ************************* */
+  /* HERO-SECTION */
+  /* ************************* */
+  .hero-section {
+    padding: 3.6rem 9%;
+    max-height: 95vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10.2rem;
+  }
+
+  .my-info {
+    padding: 2.6rem 5%;
+    font-size: 3.4rem;
+    gap: 1.8rem;
+  }
+
+  .dynamic {
+    font-size: 2rem;
+  }
+
+  .about-me-link {
+    width: 50%;
+    font-size: 1.8rem;
+  }
+
+  .down-arrow-icon {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+
+  .social-icon {
+    height: 3.2rem;
+    width: 3.2rem;
+  }
+
+  .my-link-list {
+    width: 100%;
+    gap: 0.4rem;
+  }
+
+  .memoji-item img {
+    height: 30rem;
+    width: 30rem;
+  }
+
+  /* .pro-box {
+    height: 100%;
+    width: 100%;
+  }
+
+  .foot-container {
+    width: 100%;
+  } */
+
+  /* ************************* */
+  /* HERO-SECTION */
+  /* ************************* */
+  /* .hero-section{
+    padding: 0;
+  }
+
+  .my-info{
+    padding: 0;
+  } */
+
+  /* ************************* */
+  /* FOOTER-SECTION */
+  /* ************************* */
+  /* .foot-container{
+    width: 50rem;
+  } */
 }
 
 /* HEADER-SECTION */

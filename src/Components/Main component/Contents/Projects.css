@@ -13,7 +13,6 @@
 }
 
 .pro-box {
-  flex: 1 1 30rem;
   border-radius: 0.8rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;

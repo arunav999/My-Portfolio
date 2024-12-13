@@ -2,6 +2,7 @@
 /* ABOUT ME */
 /* ************************* */
 .aboutMeSection {
+  display: none;
   height: 95vh;
   padding: 2.6rem 0;
 }
