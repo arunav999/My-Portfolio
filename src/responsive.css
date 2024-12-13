@@ -3,27 +3,51 @@
   LARGE: 1025px(64.06rem) - 1235px(77.18rem) 
   (for Small Laptops) 
 */
-/* ************************* */
+/* **--**--**--**--**--**--**--** */
 @media (max-width: 77.18rem) {
   html {
     font-size: 50.5%;
   }
 }
+/* **--**--**--**--**--**--**--** */
 
 /* ************************* */
 /* 
   MEDIUM: 768px(48rem) - 1024px(64rem) 
   (for Tablets) 
 */
-/* ************************* */
-@media (max-width: 64rem) {}
+/* **--**--**--**--**--**--**--** */
+@media (max-width: 64rem) {
+  .sec-container,
+  /* .header, */
+  /* .hero-section, */
+  .aboutMeSection,
+  .skillsSection,
+  .eduSection,
+  .proSection,
+  .contactSection,
+  .footer {
+    display: none;
+  }
+  /* ************************* */
+  /* HEADER-SECTION */
+  /* ************************* */
+  .main-nav-list{
+    gap: 1.4rem;
+  }
+
+  /* ************************* */
+  /* HERO-SECTION */
+  /* ************************* */
+}
+/* **--**--**--**--**--**--**--** */
 
 /* ************************* */
 /* 
   SMALL: 494px(30.875rem) - 767px(47.93rem) 
   (for Tablets) 
 */
-/* ************************* */
+/* **--**--**--**--**--**--**--** */
 @media (max-width: 47.93rem) {
   /* * {
     border: 1px solid lightcoral;
@@ -284,28 +308,15 @@
     font-size: 1.4rem;
   }
 }
+/* **--**--**--**--**--**--**--** */
 
 /* ************************* */
 /* 
   EXTRA-SMALL: 320px(20rem) - 492px(30.75rem) 
   (for Mobiles) 
 */
-/* ************************* */
+/* **--**--**--**--**--**--**--** */
 @media (max-width: 30.75rem) {
-
-  /* .sec-container, */
-  /* .header, */
-  /* .hero-section, */
-  /* .aboutMeSection, */
-  /* .skillsSection, */
-  /* .eduSection, */
-  /* .proSection, */
-  /* .contactSection, */
-  /* .footer {
-    max-width: 100%;
-    display: none;
-  } */
-
   .sec-container {
     width: 100%;
   }
@@ -454,23 +465,8 @@
     justify-items: baseline;
   }
 
-  .foot-nav-link{
+  .foot-nav-link {
     width: 100%;
   }
 }
-
-/* HEADER-SECTION */
-
-/* HERO-SECTION */
-
-/* ABOUT_ME-SECTION */
-
-/* SKILLS-SECTION */
-
-/* MY_EDUCATION-SECTION */
-
-/* PROJECTS-SECTION */
-
-/* CONTACT_ME-SECTION */
-
-/* FOOTER-SECTION */
+/* **--**--**--**--**--**--**--** */
