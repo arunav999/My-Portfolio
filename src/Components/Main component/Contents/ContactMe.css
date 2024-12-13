@@ -137,24 +137,6 @@ form .button-area {
   font-family: "Sen", sans-serif;
 }
 
-.button-area span {
-  font-size: 1.6rem;
-  padding: 1rem;
-  display: none;
-}
-
-.button-area button .form-icon {
-  position: relative;
-  top: 0.6rem;
-  left: 0.2rem;
-  font-size: 1.5rem;
-  transition: 0.3s;
-}
-
-.button-area button:hover .form-icon {
-  left: 0.8rem;
-}
-
 /* ************************* */
 /* ERROR-MESSAGE */
 /* ************************* */
