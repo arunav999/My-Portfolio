@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-import "./Footer-module.css";
+import "./Footer.css";
 import { myData } from "../../Dynamic Data/Data Stored/data";
 import DynamicSocial from "../../Dynamic Data/DynamicSocial";
 

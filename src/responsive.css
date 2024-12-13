@@ -25,12 +25,12 @@
   /* .hero-section, */
   /* .aboutMeSection, */
   /* .skillsSection, */
-  .eduSection,
-  .proSection,
-  .contactSection,
-  .footer {
+  /* .eduSection, */
+  /* .proSection, */
+  /* .contactSection, */
+  /* .footer {
     display: none;
-  }
+  } */
 
   .sec-container {
     width: 100%;
@@ -62,24 +62,24 @@
   /* ************************* */
   /* ABOUT_ME-SECTION */
   /* ************************* */
-  .aboutMeSection{
+  .aboutMeSection {
     height: 65vh;
   }
-  
-  .row{
+
+  .row {
     padding: 0 5%;
   }
 
-  .memoji-img{
+  .memoji-img {
     padding: 0;
   }
 
-  .memoji-working{
+  .memoji-working {
     height: 34rem;
     width: 34rem;
   }
 
-  .heading-tertiary{
+  .heading-tertiary {
     font-size: 3.2rem;
   }
 
@@ -87,8 +87,74 @@
     font-size: 1.6rem;
   }
 
-  .res-btn{
+  .res-btn {
     bottom: -2.6rem;
+  }
+
+  /* ************************* */
+  /* PROJECTS-SECTION */
+  /* ************************* */
+  .pro-container {
+    padding: 0 4%;
+  }
+
+  .pro-box {
+    height: 25rem;
+  }
+
+  .box-content .tag {
+    height: 3.8rem;
+  }
+
+  /* ************************* */
+  /* CONTACT-SECTION */
+  /* ************************* */
+  .contact-container {
+    padding: 2.6rem 5%;
+    max-width: 85rem;
+  }
+
+  .contact-content {
+    padding: 0rem 0rem;
+  }
+
+  .contact-container .contact-img {
+    margin: 0;
+  }
+
+  .contact-img img {
+    width: 30.4rem;
+    height: 30.4rem;
+  }
+
+  .contact-content form {
+    width: 50%;
+  }
+
+  .button-area button {
+    margin-top: 2rem;
+  }
+
+  /* ************************* */
+  /* FOOTER-SECTION */
+  /* ************************* */
+  .foot-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: baseline;
+  }
+
+  .foot-nav-link{
+    width: 100%;
+  }
+
+  .foot-box h3{
+    font-size: 3.2rem;
+  }
+
+  .foot-container .foot-box:last-child {
+    margin-left: 2rem;
   }
 }
 
