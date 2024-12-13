@@ -154,20 +154,6 @@
 */
 /* **--**--**--**--**--**--**--** */
 @media (max-width: 47.93rem) {
-
-  /* .sec-container, */
-  /* .header, */
-  /* .hero-section, */
-  /* .aboutMeSection, */
-  /* .skillsSection, */
-  /* .eduSection, */
-  /* .proSection, */
-  /* .contactSection, */
-  /* .footer 
-  {
-    display: none;
-  } */
-
   .sec-container {
     width: 90rem;
   }

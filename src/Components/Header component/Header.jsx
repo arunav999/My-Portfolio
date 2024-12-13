@@ -15,7 +15,19 @@ const Header = () => {
   };
 
   const getOffSet = (offSetValue) => {
-    return window.innerWidth <= 767 ? -30 : offSetValue;
+    const width = window.innerWidth;
+
+    if(width <= 492) {
+      return width <= 492 ? -30 : offSetValue;
+    } else if(width <= 767) {
+      return width <= 767 ? -30 : offSetValue;
+    } else if(width <= 1024) {
+      return width <= 1024 ? -30 : offSetValue;
+    } else if(width <= 1235) {
+      return width <=1235 ? -30 : offSetValue;
+    } else {
+      return offSetValue;
+    }
   };
 
   useEffect(() => {

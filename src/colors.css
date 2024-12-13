@@ -83,7 +83,7 @@ color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
 }
 
 #navArea.is-sticky .main-nav-list li a:hover {
-  color: var(--CrystalWhite);
+  color: var(--DarkGrey);
 }
 
 .main-nav-list li a:hover {
