@@ -36,6 +36,10 @@
     gap: 1.4rem;
   }
 
+  #navArea.is-sticky .main-nav-list{
+    gap: 0.8rem;
+  }
+
   /* ************************* */
   /* HERO-SECTION */
   /* ************************* */
