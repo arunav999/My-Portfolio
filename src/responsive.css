@@ -292,17 +292,25 @@
 /* ************************* */
 @media (max-width: 30.75rem) {
 
-  .sec-container,
+  /* .sec-container, */
   /* .header, */
-  .hero-section,
-  .aboutMeSection,
-  .skillsSection,
+  /* .hero-section, */
+  /* .aboutMeSection, */
+  /* .skillsSection, */
   .eduSection,
   .proSection,
   .contactSection,
   .footer {
     /* max-width: 100%; */
     display: none;
+  }
+
+  .sec-container {
+    width: 100%;
+  }
+
+  .heading-secondary{
+    font-size: 4rem;
   }
 
   /* ************************* */
@@ -351,6 +359,31 @@
     height: 30rem;
     width: 30rem;
   }
+
+  /* ************************* */
+  /* ABOUT_ME-SECTION */
+  /* ************************* */
+  .aboutMeSection{
+    height: 110vh;
+  }
+  
+  .content {
+    width: 100%;
+    padding: 0 9%;
+  }
+
+  .content .desc{
+    letter-spacing: 0.6px;
+  }
+
+  .box-container{
+    gap: 0.6rem;
+  }
+
+  .contact-link span{
+    font-size: 1.6rem;
+  }
+
 
   /* .pro-box {
     height: 100%;
