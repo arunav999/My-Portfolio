@@ -69,7 +69,7 @@ const myProjectsData = [
     proAlt: "My portfolio website screenshot",
     proTag: "Portfolio",
     proDesc: "Created this portfolio using React js.",
-    proVisit: "https://adorable-dusk-9a2e6d.netlify.app/",
+    proVisit: "https://arunavsingh.netlify.app/",
     proCode: "https://github.com/arunav999/My-Portfolio",
   },
   {
