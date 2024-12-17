@@ -86,4 +86,4 @@ Feel free to connect or reach out:
 
 ---
 
-Developed By: Arunav Singh 
+Developed by: Arunav Singh 
