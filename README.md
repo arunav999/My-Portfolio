@@ -60,7 +60,7 @@ src/
 
 ![Portfolio Website Screenshot](Resume-ss.png)
 
---
+---
 
 ## 🚀 **Features**
 
@@ -83,3 +83,7 @@ Feel free to connect or reach out:
 ---
 
 ### ⭐ If you find this project helpful, don't forget to give it a star on GitHub! ⭐
+
+---
+
+Developed By: Arunav Singh
