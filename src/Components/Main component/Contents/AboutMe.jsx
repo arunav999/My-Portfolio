@@ -43,7 +43,11 @@ const AboutMe = () => {
                 </a>
               </p>
               <p className="place">
-                <a href={myData[0].lHref} target="blank" className="contact-link">
+                <a
+                  href={myData[0].lHref}
+                  target="blank"
+                  className="contact-link"
+                >
                   <span>Place: </span>
                   <span>{myData[0].location}</span>
                 </a>
@@ -52,7 +56,7 @@ const AboutMe = () => {
 
             <div className="res-btn">
               <a
-                href="https://drive.google.com/file/d/1T35dGFRaqpP3K47avnfNN-GFgAm1FcVj/view?usp=sharing"
+                href="https://drive.google.com/file/d/1zKyGlJOQTvbGZzbGZFIIJ9SSkLl5O1mL/view?usp=sharing"
                 className="res-link"
                 target="blank"
               >
