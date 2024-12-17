@@ -6,7 +6,6 @@ import Skills from "./Contents/Skills";
 import MyEducation from "./Contents/MyEducation";
 import Projects from "./Contents/Projects";
 import ContactMe from "./Contents/ContactMe";
-import Temp2 from "./Contents/temp2";
 
 const Main = () => {
   return (
@@ -17,7 +16,6 @@ const Main = () => {
       <MyEducation />
       <Projects />
       <ContactMe />
-      {/* <Temp2 /> */}
     </main>
   );
 };

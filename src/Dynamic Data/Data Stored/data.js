@@ -65,6 +65,14 @@ const myEducationData = [
 // MY PROJECTS DATA
 const myProjectsData = [
   {
+    proImg: PortSS,
+    proAlt: "My portfolio website screenshot",
+    proTag: "Portfolio",
+    proDesc: "Created this portfolio using React js.",
+    proVisit: "https://adorable-dusk-9a2e6d.netlify.app/",
+    proCode: "https://github.com/arunav999/My-Portfolio",
+  },
+  {
     proImg: OmniSS,
     proTag: "OmniFood",
     proAlt: "OmniFood website screenshot",
@@ -88,14 +96,6 @@ const myProjectsData = [
       "It's a basic login form built using HTML and CSS with a video background.",
     proVisit: "https://login-form-arunav.netlify.app/",
     proCode: "https://github.com/arunav999/Login-form-basic",
-  },
-  {
-    proImg: PortSS,
-    proAlt: "My portfolio website screenshot",
-    proTag: "Portfolio",
-    proDesc: "Created this portfolio using React js.",
-    proVisit: "https://adorable-dusk-9a2e6d.netlify.app/",
-    proCode: "https://github.com/arunav999/My-Portfolio",
   },
 ];
 

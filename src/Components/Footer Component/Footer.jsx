@@ -17,8 +17,7 @@ const Footer = () => {
           <h3>Arunav's Portfolio</h3>
           <DynamicSocial />
           <p>
-            Thank you for visiting my personal portfolio website. Connect with
-            me over socials.
+          Thank you for exploring my work! Let's connect and collaborate. Reach out on social media or via email to discuss how we can bring your vision to life.
             <br />
             <br />
             Keep Rising.
