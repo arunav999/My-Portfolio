@@ -7,10 +7,12 @@ import Footer from "./Components/Footer Component/Footer";
 import "./index.css";
 import "./colors.css";
 import "./responsive.css";
+import MetaTags from "./Components/Meta tags/MetaTags";
 
 function App() {
   return (
     <>
+      <MetaTags />
       <Header />
       <Main />
       <Footer />
