@@ -6,26 +6,7 @@ It includes:
 
 - Neutral colors for backgrounds, text, and borders.
 
-- State colors (Success, Warning, Error, Info).
-- Additional colors for links, hover effects, and highlights.
-
 Use these variables to ensure uniform styling across the project. Adjustments can be made here for global updates.
-*/
-
-/* 
-On these background colors use these font colors for readibility.
-
-Bg- #E7F2F8 
-color- #1A1A1A (Very Dark Grey) / #333333 (Dark grey) 
-
-Bg- #74BDCB
-color- #000000 (Black) /  #1A1A1A (Very Dark Grey)
-
-Bg- #FFA384
-color- #0D0D0D (Light black) / #1a1a1a (Very Dark Grey)
-
-Bg- #efe7bc
-color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
 */
 
 /* ************************* */
@@ -137,7 +118,6 @@ color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
 }
 
 .memoji-item:hover {
-  /* box-shadow: -4px 1px 37px 4px var(--Freesia); */
   background-color: var(--Freesia);
 }
 
@@ -261,18 +241,6 @@ color- #1a1a1a (Very Dark Grey) / #333333 (Dark grey)
   color: var(--LightGrey);
 }
 
-/* .edu-box {
-  background: var(--CrystalWhite);
-  color: var(--PecockBlue);
-  border-radius: 1rem;
-  box-shadow: 1px 1px 5px 2px #0000000d;
-  transition: all 0.3s ease-in-out;
-} */
-
-/* .edu-box:hover {
-  box-shadow: 5px 5px 10px 5px #0000001a;
-} */
-
 /* ************************* */
 /* PROJECTS COMPONENTS CSS-FILE */
 /* ************************* */
@@ -332,7 +300,6 @@ form .message textarea {
 
 .field input:focus,
 .message textarea:focus {
-  /* border: 2px solid var(--PeseantBrown); */
   box-shadow: 0 0 0 0.6rem rgba(230, 125, 34, 0.5);
 }
 
