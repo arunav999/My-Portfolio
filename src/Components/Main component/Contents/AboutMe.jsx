@@ -56,7 +56,7 @@ const AboutMe = () => {
 
             <div className="res-btn">
               <a
-                href="https://drive.google.com/file/d/1h9wy_w3ysXgROqqGD_qXO3UFUs2WwRtE/view?usp=sharing"
+                href="https://drive.google.com/file/d/1GvV-8QEOaagFVGaszlR8Tt4UcW28VBoP/view?usp=sharing"
                 className="res-link"
                 target="blank"
               >
