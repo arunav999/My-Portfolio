@@ -65,15 +65,6 @@ const myEducationData = [
 // MY PROJECTS DATA
 const myProjectsData = [
   {
-    proImg: "",
-    proAlt: "Pokemon Web App screenshot",
-    proTag: "Pokemon",
-    proDesc:
-      "The Project is under development",
-    proVisit: "https://pokemon-app-arunav.netlify.app/",
-    proCode: "https://github.com/arunav999/pokemon-web-app",
-  },
-  {
     proImg: PortSS,
     proAlt: "My portfolio website screenshot",
     proTag: "Portfolio",
@@ -96,6 +87,15 @@ const myProjectsData = [
     proDesc: "Youtube Clone project built in HTML and CSS",
     proVisit: "https://yt-clone-arunav.netlify.app/",
     proCode: "https://github.com/arunav999/Youtube-Clone",
+  },
+  {
+    proImg: "",
+    proAlt: "Pokemon Web App screenshot",
+    proTag: "Pokemon",
+    proDesc:
+      "The Project is under development",
+    proVisit: "https://pokemon-app-arunav.netlify.app/",
+    proCode: "https://github.com/arunav999/pokemon-web-app",
   },
   {
     proImg: LoginSS,
