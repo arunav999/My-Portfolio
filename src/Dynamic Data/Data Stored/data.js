@@ -10,6 +10,10 @@ import OmniSS from "../../img/Projects Screenshots/Omni-ss.png";
 import YTcloneSS from "../../img/Projects Screenshots/YT-Clone-ss.png";
 import LoginSS from "../../img/Projects Screenshots/Login-Form-ss.png";
 import PortSS from "../../img/Projects Screenshots/Resume-ss.png";
+import ProManagement from "../../img/Projects Screenshots/Project-Home-Page-SS.png";
+import TicTacToe from "../../img/Projects Screenshots/tic-tac-toe-home.png";
+import Investment from "../../img/Projects Screenshots/invest-home-ss.png";
+import CountChallenge from "../../img/Projects Screenshots/count-chall-ss.png";
 
 /*-------------------------------------- */
 /*-------------------------------------- */
@@ -68,7 +72,8 @@ const myProjectsData = [
     proImg: PortSS,
     proAlt: "My portfolio website screenshot",
     proTag: "Portfolio",
-    proDesc: "Created this portfolio using React js.",
+    proDesc:
+      "🌟 A personal portfolio that showcases my journey, projects, and passion — built with React for a sleek, modern vibe!",
     proVisit: "https://arunavsingh.netlify.app/",
     proCode: "https://github.com/arunav999/My-Portfolio",
   },
@@ -76,35 +81,72 @@ const myProjectsData = [
     proImg: OmniSS,
     proTag: "OmniFood",
     proAlt: "OmniFood website screenshot",
-    proDesc: "Omnifood project built in HTML, CSS and Javascript",
+    proDesc:
+      "🍽️ A modern, responsive food delivery website — serving up sleek design and functionality, built with love (and code)!",
     proVisit: "https://omnifood-arunav.netlify.app/",
     proCode: "https://github.com/arunav999/OMNI_FOOD-Project",
   },
+  // {
+  //   proImg: YTcloneSS,
+  //   proAlt: "Youtube Clone website screenshot",
+  //   proTag: "Youtube Clone",
+  //   proDesc: "Youtube Clone project built in HTML and CSS",
+  //   proVisit: "https://yt-clone-arunav.netlify.app/",
+  //   proCode: "https://github.com/arunav999/Youtube-Clone",
+  // },
+  // {
+  //   proImg: "",
+  //   proAlt: "Pokemon Web App screenshot",
+  //   proTag: "Pokemon",
+  //   proDesc:
+  //     "The Project is under development",
+  //   proVisit: "https://pokemon-app-arunav.netlify.app/",
+  //   proCode: "https://github.com/arunav999/pokemon-web-app",
+  // },
+  // {
+  //   proImg: LoginSS,
+  //   proAlt: "Login form screenshot",
+  //   proTag: "Login form",
+  //   proDesc:
+  //     "It's a basic login form built using HTML and CSS with a video background.",
+  //   proVisit: "https://login-form-arunav.netlify.app/",
+  //   proCode: "https://github.com/arunav999/Login-form-basic",
+  // },
   {
-    proImg: YTcloneSS,
-    proAlt: "Youtube Clone website screenshot",
-    proTag: "Youtube Clone",
-    proDesc: "Youtube Clone project built in HTML and CSS",
-    proVisit: "https://yt-clone-arunav.netlify.app/",
-    proCode: "https://github.com/arunav999/Youtube-Clone",
+    proImg: ProManagement,
+    proTag: "Project Management",
+    proAlt: "Project management home page screenshot",
+    proDesc:
+      "✅ Streamline your workflow with this sleek, React-powered project management app — where productivity meets simplicity!",
+    proVisit: "https://project-management-arunav.netlify.app",
+    proCode: "https://github.com/arunav999/React-project-management",
   },
   {
-    proImg: "",
-    proAlt: "Pokemon Web App screenshot",
-    proTag: "Pokemon",
+    proImg: TicTacToe,
+    proTag: "Tic-Tac-Toe",
+    proAlt: "Tic Tac Toe game home page screenshot",
     proDesc:
-      "The Project is under development",
-    proVisit: "https://pokemon-app-arunav.netlify.app/",
-    proCode: "https://github.com/arunav999/pokemon-web-app",
+      "🎮 Classic Tic-Tac-Toe — reimagined with React for a smooth, interactive, and nostalgic gaming experience!",
+    proVisit: "https://tic-tac-toe-arunav.netlify.app/",
+    proCode: "https://github.com/arunav999/Tic-Tac-Toe",
   },
   {
-    proImg: LoginSS,
-    proAlt: "Login form screenshot",
-    proTag: "Login form",
+    proImg: Investment,
+    proTag: "Investment Calculator",
+    proAlt: "Investment Calculator home page screenshot",
     proDesc:
-      "It's a basic login form built using HTML and CSS with a video background.",
-    proVisit: "https://login-form-arunav.netlify.app/",
-    proCode: "https://github.com/arunav999/Login-form-basic",
+      "📈 Plan your financial future with ease — a sleek, React-powered investment calculator that crunches the numbers for you!",
+    proVisit: "https://investment-calculator-arunav.netlify.app/",
+    proCode: "https://github.com/arunav999/Investment-Calculator",
+  },
+  {
+    proImg: CountChallenge,
+    proTag: "Countdown Challenge",
+    proAlt: "Countdown Challenge home page screenshot",
+    proDesc:
+      "⏳ Countdown to your big moment — a dynamic, React-powered timer that keeps you on track, second by second!",
+    proVisit: "https://countdown-challenge-arunav.netlify.app/",
+    proCode: "https://github.com/arunav999/Ref-s-and-Portals",
   },
 ];
 
