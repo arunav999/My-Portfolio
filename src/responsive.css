@@ -118,6 +118,10 @@
     height: 25rem;
   }
 
+  .pro-desc p {
+    font-size: 1.4rem;
+  }
+
   .box-content .tag {
     height: 3.8rem;
   }
